@@ -1,0 +1,16 @@
+../Core/Src/Si7021_driver.c:18:14:process_temp_code	16	static
+../Core/Src/Si7021_driver.c:23:14:process_humi_code	24	static
+../Core/Src/Si7021_driver.c:35:17:convert_to_uint16	16	static
+../Core/Src/Si7021_driver.c:40:15:r_reg	40	static
+../Core/Src/Si7021_driver.c:64:15:w_reg	40	static
+../Core/Src/Si7021_driver.c:85:8:r_single_Si7021	32	static
+../Core/Src/Si7021_driver.c:114:8:r_both_Si7021	32	static
+../Core/Src/Si7021_driver.c:144:8:r_firmware_rev_Si7021	24	static
+../Core/Src/Si7021_driver.c:163:8:set_resolution_Si7021	24	static
+../Core/Src/Si7021_driver.c:206:21:r_resolution_Si7021	8	static
+../Core/Src/Si7021_driver.c:214:8:set_heater_current_Si7021	24	static
+../Core/Src/Si7021_driver.c:230:8:r_heater_current_Si7021	8	static
+../Core/Src/Si7021_driver.c:238:8:VDD_warning_Si7021	8	static
+../Core/Src/Si7021_driver.c:249:8:enable_heater_Si7021	24	static
+../Core/Src/Si7021_driver.c:272:8:rst_Si7021	24	static
+../Core/Src/Si7021_driver.c:282:8:get_register	16	static

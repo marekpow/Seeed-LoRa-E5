@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "app_lorawan.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "sys_sensors.h"
+#include "Si7021_driver.h"
+#include "sys_app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,7 +57,22 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void SI7201_Init()
+  {
+#ifdef SI7021_H_
+  int8_t enable_status = enable_heater_Si7021(1);
 
+  int8_t reset_status = rst_Si7021();
+
+  if(enable_status == 0 && reset_status == 0){
+  	  APP_LOG(0, VLEVEL_M, "Si7021 status => OK\n");
+    }
+    else
+    {
+      APP_LOG(0, VLEVEL_M, "Si7021 status => Error\n");
+    }
+#endif
+  }
 /* USER CODE END 0 */
 
 /**
@@ -63,6 +81,7 @@ void SystemClock_Config(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -86,8 +105,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_LoRaWAN_Init();
+  MX_I2C3_Init();
   /* USER CODE BEGIN 2 */
-
+  SI7201_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -23,6 +23,8 @@
 #include "platform.h"
 #include "sys_conf.h"
 #include "sys_sensors.h"
+#include "Si7021_driver.h"
+#include "sys_app.h"
 #if defined (SENSOR_ENABLED) && (SENSOR_ENABLED == 0)
 #include "adc_if.h"
 #endif /* SENSOR_ENABLED */
@@ -191,6 +193,15 @@ int32_t EnvSensors_Read(sensor_t *sensor_data)
 #error SENSOR_ENABLED not defined
 #endif  /* SENSOR_ENABLED */
 
+#ifdef SI7021_H_
+  int8_t status = r_both_Si7021(&HUMIDITY_Value, &TEMPERATURE_Value);
+
+  if(status != 0)
+  {
+	  APP_LOG(1, VLEVEL_M, "Read temperature & humidity error\n");
+  }
+#endif
+
   sensor_data->humidity    = HUMIDITY_Value;
   sensor_data->temperature = TEMPERATURE_Value;
   sensor_data->pressure    = PRESSURE_Value;
@@ -204,13 +215,7 @@ int32_t EnvSensors_Read(sensor_t *sensor_data)
 
 int32_t EnvSensors_Init(void)
 {
-#if defined( USE_IKS01A2_ENV_SENSOR_HTS221_0 ) || defined( USE_IKS01A2_ENV_SENSOR_LPS22HB_0 ) || \
-    defined( USE_IKS01A3_ENV_SENSOR_HTS221_0 ) || defined( USE_IKS01A3_ENV_SENSOR_LPS22HH_0 ) || \
-    defined( USE_BSP_DRIVER )
-  int32_t ret = BSP_ERROR_NONE;
-#else
   int32_t ret = 0;
-#endif /* USE_BSP_DRIVER */
   /* USER CODE BEGIN EnvSensors_Init */
 #if defined (SENSOR_ENABLED) && (SENSOR_ENABLED == 1)
   /* Init */
