@@ -582,40 +582,41 @@ static void SendTxData(void)
   CayenneLppCopy(AppData.Buffer);
   AppData.BufferSize = CayenneLppGetSize();
 #else  /* not CAYENNE_LPP */
-  humidity    = (uint16_t)(sensor_data.humidity * 10);            /* in %*10     */
-  temperature = (int16_t)(sensor_data.temperature);
-  pressure = (uint16_t)(sensor_data.pressure * 100 / 10); /* in hPa / 10 */
+  humidity    = (uint16_t)(sensor_data.humidity * 100);            /* in %*10     */
+    temperature = (int16_t)(sensor_data.temperature * 100);
+    pressure = (uint16_t)(sensor_data.pressure * 100 / 10); /* in hPa / 10 */
 
-  AppData.Buffer[i++] = AppLedStateOn;
-  AppData.Buffer[i++] = (uint8_t)((pressure >> 8) & 0xFF);
-  AppData.Buffer[i++] = (uint8_t)(pressure & 0xFF);
-  AppData.Buffer[i++] = (uint8_t)(temperature & 0xFF);
-  AppData.Buffer[i++] = (uint8_t)((humidity >> 8) & 0xFF);
-  AppData.Buffer[i++] = (uint8_t)(humidity & 0xFF);
+    AppData.Buffer[i++] = AppLedStateOn;
+    AppData.Buffer[i++] = (uint8_t)((pressure >> 8) & 0xFF);
+    AppData.Buffer[i++] = (uint8_t)(pressure & 0xFF);
+    AppData.Buffer[i++] = (uint8_t)((temperature >> 8) & 0xFF);
+    AppData.Buffer[i++] = (uint8_t)(temperature & 0xFF);
+    AppData.Buffer[i++] = (uint8_t)((humidity >> 8) & 0xFF);
+    AppData.Buffer[i++] = (uint8_t)(humidity & 0xFF);
 
-  if ((LmHandlerParams.ActiveRegion == LORAMAC_REGION_US915) || (LmHandlerParams.ActiveRegion == LORAMAC_REGION_AU915)
-      || (LmHandlerParams.ActiveRegion == LORAMAC_REGION_AS923))
-  {
-    AppData.Buffer[i++] = 0;
-    AppData.Buffer[i++] = 0;
-    AppData.Buffer[i++] = 0;
-    AppData.Buffer[i++] = 0;
-  }
-  else
-  {
-    latitude = sensor_data.latitude;
-    longitude = sensor_data.longitude;
+    if ((LmHandlerParams.ActiveRegion == LORAMAC_REGION_US915) || (LmHandlerParams.ActiveRegion == LORAMAC_REGION_AU915)
+        || (LmHandlerParams.ActiveRegion == LORAMAC_REGION_AS923))
+    {
+      AppData.Buffer[i++] = 0;
+      AppData.Buffer[i++] = 0;
+      AppData.Buffer[i++] = 0;
+      AppData.Buffer[i++] = 0;
+    }
+    else
+    {
+      latitude = sensor_data.latitude;
+      longitude = sensor_data.longitude;
 
-    AppData.Buffer[i++] = GetBatteryLevel();        /* 1 (very low) to 254 (fully charged) */
-    AppData.Buffer[i++] = (uint8_t)((latitude >> 16) & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)((latitude >> 8) & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)(latitude & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)((longitude >> 16) & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)((longitude >> 8) & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)(longitude & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)((altitudeGps >> 8) & 0xFF);
-    AppData.Buffer[i++] = (uint8_t)(altitudeGps & 0xFF);
-  }
+      AppData.Buffer[i++] = GetBatteryLevel();        /* 1 (very low) to 254 (fully charged) */
+      AppData.Buffer[i++] = (uint8_t)((latitude >> 16) & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)((latitude >> 8) & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)(latitude & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)((longitude >> 16) & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)((longitude >> 8) & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)(longitude & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)((altitudeGps >> 8) & 0xFF);
+      AppData.Buffer[i++] = (uint8_t)(altitudeGps & 0xFF);
+    }
 
   AppData.BufferSize = i;
 #endif /* CAYENNE_LPP */
