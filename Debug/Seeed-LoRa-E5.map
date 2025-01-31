@@ -13384,7 +13384,7 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x08000000                g_pfnVectors
                 0x08000138                        . = ALIGN (0x4)
 
-.text           0x08000138    0x1d6e8
+.text           0x08000138    0x1d6d8
                 0x08000138                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000138       0x40 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -14518,1496 +14518,1496 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .text.OnRxData
                 0x0800b730      0x148 ./LoRaWAN/App/lora_app.o
  .text.SendTxData
-                0x0800b878      0x34c ./LoRaWAN/App/lora_app.o
+                0x0800b878      0x33c ./LoRaWAN/App/lora_app.o
  .text.OnTxTimerEvent
-                0x0800bbc4       0x24 ./LoRaWAN/App/lora_app.o
+                0x0800bbb4       0x24 ./LoRaWAN/App/lora_app.o
  .text.OnTxTimerLedEvent
-                0x0800bbe8       0x12 ./LoRaWAN/App/lora_app.o
+                0x0800bbd8       0x12 ./LoRaWAN/App/lora_app.o
  .text.OnRxTimerLedEvent
-                0x0800bbfa       0x12 ./LoRaWAN/App/lora_app.o
+                0x0800bbea       0x12 ./LoRaWAN/App/lora_app.o
  .text.OnJoinTimerLedEvent
-                0x0800bc0c       0x12 ./LoRaWAN/App/lora_app.o
- *fill*         0x0800bc1e        0x2 
+                0x0800bbfc       0x12 ./LoRaWAN/App/lora_app.o
+ *fill*         0x0800bc0e        0x2 
  .text.OnTxData
-                0x0800bc20       0xbc ./LoRaWAN/App/lora_app.o
+                0x0800bc10       0xbc ./LoRaWAN/App/lora_app.o
  .text.OnJoinRequest
-                0x0800bcdc       0xa8 ./LoRaWAN/App/lora_app.o
+                0x0800bccc       0xa8 ./LoRaWAN/App/lora_app.o
  .text.OnBeaconStatusChange
-                0x0800bd84       0xd0 ./LoRaWAN/App/lora_app.o
+                0x0800bd74       0xd0 ./LoRaWAN/App/lora_app.o
  .text.OnSysTimeUpdate
-                0x0800be54        0xc ./LoRaWAN/App/lora_app.o
+                0x0800be44        0xc ./LoRaWAN/App/lora_app.o
  .text.OnClassChange
-                0x0800be60       0x30 ./LoRaWAN/App/lora_app.o
+                0x0800be50       0x30 ./LoRaWAN/App/lora_app.o
  .text.OnMacProcessNotify
-                0x0800be90       0x10 ./LoRaWAN/App/lora_app.o
+                0x0800be80       0x10 ./LoRaWAN/App/lora_app.o
  .text.OnTxPeriodicityChanged
-                0x0800bea0       0x48 ./LoRaWAN/App/lora_app.o
+                0x0800be90       0x48 ./LoRaWAN/App/lora_app.o
  .text.OnTxFrameCtrlChanged
-                0x0800bee8       0x20 ./LoRaWAN/App/lora_app.o
+                0x0800bed8       0x20 ./LoRaWAN/App/lora_app.o
  .text.OnPingSlotPeriodicityChanged
-                0x0800bf08       0x20 ./LoRaWAN/App/lora_app.o
+                0x0800bef8       0x20 ./LoRaWAN/App/lora_app.o
  .text.OnSystemReset
-                0x0800bf28       0x20 ./LoRaWAN/App/lora_app.o
+                0x0800bf18       0x20 ./LoRaWAN/App/lora_app.o
  .text.StopJoin
-                0x0800bf48       0x80 ./LoRaWAN/App/lora_app.o
+                0x0800bf38       0x80 ./LoRaWAN/App/lora_app.o
  .text.OnStopJoinTimerEvent
-                0x0800bfc8       0x24 ./LoRaWAN/App/lora_app.o
+                0x0800bfb8       0x24 ./LoRaWAN/App/lora_app.o
  .text.StoreContext
-                0x0800bfec       0x50 ./LoRaWAN/App/lora_app.o
+                0x0800bfdc       0x50 ./LoRaWAN/App/lora_app.o
  .text.OnNvmDataChange
-                0x0800c03c       0x3c ./LoRaWAN/App/lora_app.o
+                0x0800c02c       0x3c ./LoRaWAN/App/lora_app.o
  .text.OnStoreContextRequest
-                0x0800c078       0x30 ./LoRaWAN/App/lora_app.o
+                0x0800c068       0x30 ./LoRaWAN/App/lora_app.o
  .text.OnRestoreContextRequest
-                0x0800c0a8       0x20 ./LoRaWAN/App/lora_app.o
+                0x0800c098       0x20 ./LoRaWAN/App/lora_app.o
  .text.LoraInfo_Init
-                0x0800c0c8       0x64 ./LoRaWAN/App/lora_info.o
-                0x0800c0c8                LoraInfo_Init
+                0x0800c0b8       0x64 ./LoRaWAN/App/lora_info.o
+                0x0800c0b8                LoraInfo_Init
  .text.LoraInfo_GetPtr
-                0x0800c12c       0x14 ./LoRaWAN/App/lora_info.o
-                0x0800c12c                LoraInfo_GetPtr
+                0x0800c11c       0x14 ./LoRaWAN/App/lora_info.o
+                0x0800c11c                LoraInfo_GetPtr
  .text.RBI_Init
-                0x0800c140        0xe ./LoRaWAN/Target/radio_board_if.o
-                0x0800c140                RBI_Init
+                0x0800c130        0xe ./LoRaWAN/Target/radio_board_if.o
+                0x0800c130                RBI_Init
  .text.RBI_ConfigRFSwitch
-                0x0800c14e       0x1c ./LoRaWAN/Target/radio_board_if.o
-                0x0800c14e                RBI_ConfigRFSwitch
+                0x0800c13e       0x1c ./LoRaWAN/Target/radio_board_if.o
+                0x0800c13e                RBI_ConfigRFSwitch
  .text.RBI_GetTxConfig
-                0x0800c16a        0xe ./LoRaWAN/Target/radio_board_if.o
-                0x0800c16a                RBI_GetTxConfig
+                0x0800c15a        0xe ./LoRaWAN/Target/radio_board_if.o
+                0x0800c15a                RBI_GetTxConfig
  .text.RBI_IsTCXO
-                0x0800c178        0xe ./LoRaWAN/Target/radio_board_if.o
-                0x0800c178                RBI_IsTCXO
+                0x0800c168        0xe ./LoRaWAN/Target/radio_board_if.o
+                0x0800c168                RBI_IsTCXO
  .text.RBI_IsDCDC
-                0x0800c186        0xe ./LoRaWAN/Target/radio_board_if.o
-                0x0800c186                RBI_IsDCDC
+                0x0800c176        0xe ./LoRaWAN/Target/radio_board_if.o
+                0x0800c176                RBI_IsDCDC
  .text.RBI_GetRFOMaxPowerConfig
-                0x0800c194       0x1c ./LoRaWAN/Target/radio_board_if.o
-                0x0800c194                RBI_GetRFOMaxPowerConfig
+                0x0800c184       0x1c ./LoRaWAN/Target/radio_board_if.o
+                0x0800c184                RBI_GetRFOMaxPowerConfig
  .text.AES_CMAC_Init
-                0x0800c1b0       0x32 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
-                0x0800c1b0                AES_CMAC_Init
+                0x0800c1a0       0x32 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
+                0x0800c1a0                AES_CMAC_Init
  .text.AES_CMAC_SetKey
-                0x0800c1e2       0x1e ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
-                0x0800c1e2                AES_CMAC_SetKey
+                0x0800c1d2       0x1e ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
+                0x0800c1d2                AES_CMAC_SetKey
  .text.AES_CMAC_Update
-                0x0800c200      0x184 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
-                0x0800c200                AES_CMAC_Update
+                0x0800c1f0      0x184 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
+                0x0800c1f0                AES_CMAC_Update
  .text.AES_CMAC_Final
-                0x0800c384      0x2c4 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
-                0x0800c384                AES_CMAC_Final
+                0x0800c374      0x2c4 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
+                0x0800c374                AES_CMAC_Final
  .text.copy_block
-                0x0800c648       0xb2 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800c638       0xb2 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.copy_block_nn
-                0x0800c6fa       0x36 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800c6ea       0x36 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.xor_block
-                0x0800c730      0x16e ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800c720      0x16e ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.copy_and_key
-                0x0800c89e      0x170 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800c88e      0x170 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.add_round_key
-                0x0800ca0e       0x1a ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800c9fe       0x1a ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.shift_sub_rows
-                0x0800ca28      0x134 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800ca18      0x134 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.mix_sub_columns
-                0x0800cb5c      0x354 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800cb4c      0x354 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .text.lorawan_aes_set_key
-                0x0800ceb0      0x1bc ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
-                0x0800ceb0                lorawan_aes_set_key
+                0x0800cea0      0x1bc ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800cea0                lorawan_aes_set_key
  .text.lorawan_aes_encrypt
-                0x0800d06c       0x92 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
-                0x0800d06c                lorawan_aes_encrypt
- *fill*         0x0800d0fe        0x2 
+                0x0800d05c       0x92 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0800d05c                lorawan_aes_encrypt
+ *fill*         0x0800d0ee        0x2 
  .text.PrintKey
-                0x0800d100      0x11c ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d0f0      0x11c ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
  .text.PrintIds
-                0x0800d21c       0xdc ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d20c       0xdc ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
  .text.GetKeyByID
-                0x0800d2f8       0x60 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d2e8       0x60 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
  .text.ComputeCmac
-                0x0800d358      0x110 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d348      0x110 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
  .text.SecureElementInit
-                0x0800d468       0x38 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d468                SecureElementInit
+                0x0800d458       0x38 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d458                SecureElementInit
  .text.SecureElementInitMcuID
-                0x0800d4a0       0x9e ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d4a0                SecureElementInitMcuID
- *fill*         0x0800d53e        0x2 
+                0x0800d490       0x9e ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d490                SecureElementInitMcuID
+ *fill*         0x0800d52e        0x2 
  .text.SecureElementGetKeyByID
-                0x0800d540       0x60 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d540                SecureElementGetKeyByID
+                0x0800d530       0x60 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d530                SecureElementGetKeyByID
  .text.SecureElementPrintKeys
-                0x0800d5a0       0x28 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d5a0                SecureElementPrintKeys
+                0x0800d590       0x28 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d590                SecureElementPrintKeys
  .text.SecureElementPrintSessionKeys
-                0x0800d5c8       0x3a ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d5c8                SecureElementPrintSessionKeys
- *fill*         0x0800d602        0x2 
+                0x0800d5b8       0x3a ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d5b8                SecureElementPrintSessionKeys
+ *fill*         0x0800d5f2        0x2 
  .text.SecureElementSetKey
-                0x0800d604       0xbc ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d604                SecureElementSetKey
+                0x0800d5f4       0xbc ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d5f4                SecureElementSetKey
  .text.SecureElementComputeAesCmac
-                0x0800d6c0       0x34 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d6c0                SecureElementComputeAesCmac
+                0x0800d6b0       0x34 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d6b0                SecureElementComputeAesCmac
  .text.SecureElementVerifyAesCmac
-                0x0800d6f4       0x58 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d6f4                SecureElementVerifyAesCmac
+                0x0800d6e4       0x58 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d6e4                SecureElementVerifyAesCmac
  .text.SecureElementAesEncrypt
-                0x0800d74c      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d74c                SecureElementAesEncrypt
+                0x0800d73c      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d73c                SecureElementAesEncrypt
  .text.SecureElementDeriveAndStoreKey
-                0x0800d84c       0x80 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d84c                SecureElementDeriveAndStoreKey
+                0x0800d83c       0x80 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d83c                SecureElementDeriveAndStoreKey
  .text.SecureElementProcessJoinAccept
-                0x0800d8cc       0xea ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d8cc                SecureElementProcessJoinAccept
- *fill*         0x0800d9b6        0x2 
+                0x0800d8bc       0xea ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d8bc                SecureElementProcessJoinAccept
+ *fill*         0x0800d9a6        0x2 
  .text.SecureElementSetDevEui
-                0x0800d9b8       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d9b8                SecureElementSetDevEui
+                0x0800d9a8       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d9a8                SecureElementSetDevEui
  .text.SecureElementGetDevEui
-                0x0800d9e8       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800d9e8                SecureElementGetDevEui
+                0x0800d9d8       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800d9d8                SecureElementGetDevEui
  .text.SecureElementSetJoinEui
-                0x0800da18       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800da18                SecureElementSetJoinEui
+                0x0800da08       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800da08                SecureElementSetJoinEui
  .text.SecureElementGetJoinEui
-                0x0800da48       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800da48                SecureElementGetJoinEui
+                0x0800da38       0x30 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800da38                SecureElementGetJoinEui
  .text.SecureElementSetDevAddr
-                0x0800da78       0x34 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800da78                SecureElementSetDevAddr
+                0x0800da68       0x34 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800da68                SecureElementSetDevAddr
  .text.SecureElementGetDevAddr
-                0x0800daac       0x44 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
-                0x0800daac                SecureElementGetDevAddr
+                0x0800da9c       0x44 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0800da9c                SecureElementGetDevAddr
  .text.LmHandlerInit
-                0x0800daf0       0xdc ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800daf0                LmHandlerInit
+                0x0800dae0       0xdc ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800dae0                LmHandlerInit
  .text.LmHandlerConfigure
-                0x0800dbcc      0x25c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800dbcc                LmHandlerConfigure
+                0x0800dbbc      0x25c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800dbbc                LmHandlerConfigure
  .text.LmHandlerProcess
-                0x0800de28       0x58 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800de28                LmHandlerProcess
+                0x0800de18       0x58 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800de18                LmHandlerProcess
  .text.LmHandlerGetDutyCycleWaitTime
-                0x0800de80       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800de80                LmHandlerGetDutyCycleWaitTime
+                0x0800de70       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800de70                LmHandlerGetDutyCycleWaitTime
  .text.LmHandlerJoin
-                0x0800de94      0x144 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800de94                LmHandlerJoin
+                0x0800de84      0x144 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800de84                LmHandlerJoin
  .text.LmHandlerJoinStatus
-                0x0800dfd8       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800dfd8                LmHandlerJoinStatus
+                0x0800dfc8       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800dfc8                LmHandlerJoinStatus
  .text.LmHandlerSend
-                0x0800e010      0x19c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e010                LmHandlerSend
+                0x0800e000      0x19c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e000                LmHandlerSend
  .text.LmHandlerDeviceTimeReq
-                0x0800e1ac       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e1ac                LmHandlerDeviceTimeReq
+                0x0800e19c       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e19c                LmHandlerDeviceTimeReq
  .text.LmHandlerPingSlotReq
-                0x0800e1e4       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e1e4                LmHandlerPingSlotReq
+                0x0800e1d4       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e1d4                LmHandlerPingSlotReq
  .text.LmHandlerRequestClass
-                0x0800e1fc      0x110 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e1fc                LmHandlerRequestClass
+                0x0800e1ec      0x110 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e1ec                LmHandlerRequestClass
  .text.LmHandlerGetCurrentClass
-                0x0800e30c       0x3e ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e30c                LmHandlerGetCurrentClass
- *fill*         0x0800e34a        0x2 
+                0x0800e2fc       0x3e ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e2fc                LmHandlerGetCurrentClass
+ *fill*         0x0800e33a        0x2 
  .text.LmHandlerGetTxDatarate
-                0x0800e34c       0x50 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e34c                LmHandlerGetTxDatarate
+                0x0800e33c       0x50 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e33c                LmHandlerGetTxDatarate
  .text.LmHandlerSetSystemMaxRxError
-                0x0800e39c       0x30 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e39c                LmHandlerSetSystemMaxRxError
+                0x0800e38c       0x30 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e38c                LmHandlerSetSystemMaxRxError
  .text.McpsConfirm
-                0x0800e3cc       0x74 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e3bc       0x74 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.McpsIndication
-                0x0800e440       0xd0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e430       0xd0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.MlmeConfirm
-                0x0800e510      0x150 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e500      0x150 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.MlmeIndication
-                0x0800e660       0x94 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e650       0x94 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerPackageRegister
-                0x0800e6f4       0xd0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800e6f4                LmHandlerPackageRegister
+                0x0800e6e4       0xd0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e6e4                LmHandlerPackageRegister
  .text.LmHandlerPackageIsInitialized
-                0x0800e7c4       0x3c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e7b4       0x3c ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerPackagesNotify
-                0x0800e800       0xf8 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e7f0       0xf8 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerPackageIsTxPending
-                0x0800e8f8       0x54 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e8e8       0x54 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerPackagesProcess
-                0x0800e94c       0x68 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e93c       0x68 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerOnTxFrameCtrlChanged
-                0x0800e9b4       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e9a4       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerOnPingSlotPeriodicityChanged
-                0x0800e9ec       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800e9dc       0x38 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
  .text.LmHandlerGetVersion
-                0x0800ea24       0x48 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800ea24                LmHandlerGetVersion
+                0x0800ea14       0x48 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800ea14                LmHandlerGetVersion
  .text.LmHandlerStop
-                0x0800ea6c       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800ea6c                LmHandlerStop
+                0x0800ea5c       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800ea5c                LmHandlerStop
  .text.LmHandlerHalt
-                0x0800ea86       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800ea86                LmHandlerHalt
+                0x0800ea76       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800ea76                LmHandlerHalt
  .text.LmHandlerGetTxPower
-                0x0800eaa0       0x50 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800eaa0                LmHandlerGetTxPower
+                0x0800ea90       0x50 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800ea90                LmHandlerGetTxPower
  .text.LmHandlerNvmDataStore
-                0x0800eaf0       0xb0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
-                0x0800eaf0                LmHandlerNvmDataStore
+                0x0800eae0       0xb0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+                0x0800eae0                LmHandlerNvmDataStore
  .text.NvmDataMgmtEvent
-                0x0800eba0       0x28 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
-                0x0800eba0                NvmDataMgmtEvent
+                0x0800eb90       0x28 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
+                0x0800eb90                NvmDataMgmtEvent
  .text.NvmDataMgmtStoreBegin
-                0x0800ebc8       0x2c ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
-                0x0800ebc8                NvmDataMgmtStoreBegin
+                0x0800ebb8       0x2c ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
+                0x0800ebb8                NvmDataMgmtStoreBegin
  .text.NvmDataMgmtStoreEnd
-                0x0800ebf4       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
-                0x0800ebf4                NvmDataMgmtStoreEnd
+                0x0800ebe4       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
+                0x0800ebe4                NvmDataMgmtStoreEnd
  .text.ClassBStatusReset
-                0x0800ec0c       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800ebfc       0x18 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpCompliancePackageFactory
-                0x0800ec24       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
-                0x0800ec24                LmhpCompliancePackageFactory
+                0x0800ec14       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800ec14                LmhpCompliancePackageFactory
  .text.LmhpComplianceInit
-                0x0800ec38       0x90 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800ec28       0x90 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceIsInitialized
-                0x0800ecc8       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800ecb8       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceIsTxPending
-                0x0800ecdc       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800eccc       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceProcess
-                0x0800ecf0       0xe0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800ece0       0xe0 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceOnMcpsIndication
-                0x0800edd0      0x7b8 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800edc0      0x7b8 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceOnMlmeConfirm
-                0x0800f588       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800f578       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpComplianceOnMlmeIndication
-                0x0800f59c       0x24 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800f58c       0x24 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.OnProcessTimer
-                0x0800f5c0       0x34 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+                0x0800f5b0       0x34 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
  .text.LmhpPackagesRegistrationInit
-                0x0800f5f4       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
-                0x0800f5f4                LmhpPackagesRegistrationInit
+                0x0800f5e4       0x14 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
+                0x0800f5e4                LmhpPackagesRegistrationInit
  .text.LmhpPackagesRegister
-                0x0800f608       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
-                0x0800f608                LmhpPackagesRegister
- *fill*         0x0800f622        0x2 
+                0x0800f5f8       0x1a ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
+                0x0800f5f8                LmhpPackagesRegister
+ *fill*         0x0800f612        0x2 
  .text.OnRadioTxDone
-                0x0800f624       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f614       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRadioRxDone
-                0x0800f680       0x74 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f670       0x74 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRadioTxTimeout
-                0x0800f6f4       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f6e4       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRadioRxError
-                0x0800f720       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f710       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRadioRxTimeout
-                0x0800f73c       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f72c       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.UpdateRxSlotIdleState
-                0x0800f768       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f758       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessRadioTxDone
-                0x0800f798      0x14c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f788      0x14c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.PrepareRxDoneAbort
-                0x0800f8e4       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f8d4       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessRadioRxDone
-                0x0800f930      0xa54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0800f920      0xa54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessRadioTxTimeout
-                0x08010384       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010374       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.HandleRadioRxErrorTimeout
-                0x080103dc      0x11c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080103cc      0x11c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessRadioRxError
-                0x080104f8       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080104e8       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessRadioRxTimeout
-                0x08010508       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080104f8       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleIrqEvents
-                0x08010518       0x90 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010508       0x90 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacIsBusy
-                0x080105a8       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x080105a8                LoRaMacIsBusy
+                0x08010598       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010598                LoRaMacIsBusy
  .text.LoRaMacIsStopped
-                0x080105f8       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x080105f8                LoRaMacIsStopped
+                0x080105e8       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080105e8                LoRaMacIsStopped
  .text.LoRaMacEnableRequests
-                0x08010618       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010608       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleRequestEvents
-                0x08010638       0xc4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010628       0xc4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleIndicationEvents
-                0x080106fc       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080106ec       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleMcpsRequest
-                0x0801076c       0xb8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801075c       0xb8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleMlmeRequest
-                0x08010824       0x6c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010814       0x6c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacCheckForBeaconAcquisition
-                0x08010890       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010880       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CheckForMinimumAbpDatarate
-                0x080108e0       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- *fill*         0x0801091a        0x2 
+                0x080108d0       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ *fill*         0x0801090a        0x2 
  .text.LoRaMacCheckForRxAbort
-                0x0801091c       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801090c       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleNvm
-                0x0801095c      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801094c      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacHandleResponseTimeout
-                0x08010ab8       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010aa8       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacProcess
-                0x08010af4       0xb0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08010af4                LoRaMacProcess
+                0x08010ae4       0xb0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010ae4                LoRaMacProcess
  .text.OnTxDelayedTimerEvent
-                0x08010ba4       0x90 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010b94       0x90 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRxWindow1TimerEvent
-                0x08010c34       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010c24       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRxWindow2TimerEvent
-                0x08010cac       0x80 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010c9c       0x80 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnRetransmitTimeoutTimerEvent
-                0x08010d2c       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010d1c       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.GetFCntDown
-                0x08010d60       0x82 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- *fill*         0x08010de2        0x2 
+                0x08010d50       0x82 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ *fill*         0x08010dd2        0x2 
  .text.SwitchClass
-                0x08010de4      0x1d4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010dd4      0x1d4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.GetMaxAppPayloadWithoutFOptsLength
-                0x08010fb8       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010fa8       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ValidatePayloadLength
-                0x08011008       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08010ff8       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ProcessMacCommands
-                0x08011058      0x9e4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- .text.Send     0x08011a3c      0x1c4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011048      0x9e4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ .text.Send     0x08011a2c      0x1c4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.SendReJoinReq
-                0x08011c00       0x88 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011bf0       0x88 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CheckForClassBCollision
-                0x08011c88       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011c78       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ComputeRxWindowParameters
-                0x08011ccc       0xcc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011cbc       0xcc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.VerifyTxFrame
-                0x08011d98       0x60 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011d88       0x60 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.SerializeTxFrame
-                0x08011df8       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011de8       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ScheduleTx
-                0x08011e68      0x170 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011e58      0x170 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.SecureFrame
-                0x08011fd8       0xac ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08011fc8       0xac ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CalculateBackOff
-                0x08012084       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012074       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.RemoveMacCommands
-                0x080120b8       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080120a8       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.ResetMacParameters
-                0x080120f8      0x274 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080120e8      0x274 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.RxWindowSetup
-                0x0801236c       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801235c       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OpenContinuousRxCWindow
-                0x080123d4       0x94 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080123c4       0x94 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.PrepareFrame
-                0x08012468      0x234 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012458      0x234 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.SendFrameOnChannel
-                0x0801269c      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801268c      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.SetTxContinuousWave
-                0x080127f8       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080127e8       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.RestoreNvmData
-                0x08012838      0x158 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012828      0x158 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.DetermineFrameType
-                0x08012990       0x9c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012980       0x9c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CheckRetrans
-                0x08012a2c       0x28 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012a1c       0x28 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CheckRetransUnconfirmedUplink
-                0x08012a54       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012a44       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CheckRetransConfirmedUplink
-                0x08012aac       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012a9c       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.IncreaseAdrAckCounter
-                0x08012afc       0x22 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- *fill*         0x08012b1e        0x2 
+                0x08012aec       0x22 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ *fill*         0x08012b0e        0x2 
  .text.StopRetransmission
-                0x08012b20       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012b10       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.OnMacProcessNotify
-                0x08012b98       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012b88       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.CallNvmDataChangeCallback
-                0x08012bc4       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012bb4       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.IsRequestPending
-                0x08012c00       0x38 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012bf0       0x38 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacInitialization
-                0x08012c38      0x56c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08012c38                LoRaMacInitialization
+                0x08012c28      0x56c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08012c28                LoRaMacInitialization
  .text.LoRaMacStart
-                0x080131a4       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x080131a4                LoRaMacStart
+                0x08013194       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013194                LoRaMacStart
  .text.LoRaMacStop
-                0x080131c0       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x080131c0                LoRaMacStop
+                0x080131b0       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080131b0                LoRaMacStop
  .text.LoRaMacHalt
-                0x08013210       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08013210                LoRaMacHalt
+                0x08013200       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013200                LoRaMacHalt
  .text.LoRaMacQueryTxPossible
-                0x08013280      0x120 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08013280                LoRaMacQueryTxPossible
+                0x08013270      0x120 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013270                LoRaMacQueryTxPossible
  .text.LoRaMacMibGetRequestConfirm
-                0x080133a0      0x3b0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x080133a0                LoRaMacMibGetRequestConfirm
+                0x08013390      0x3b0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013390                LoRaMacMibGetRequestConfirm
  .text.LoRaMacMibSetRequestConfirm
-                0x08013750      0x764 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08013750                LoRaMacMibSetRequestConfirm
+                0x08013740      0x764 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013740                LoRaMacMibSetRequestConfirm
  .text.OnAbpJoinPendingTimerEvent
-                0x08013eb4       0x38 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013ea4       0x38 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.AbpJoinPendingStart
-                0x08013eec       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013edc       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .text.LoRaMacMlmeRequest
-                0x08013f54      0x348 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08013f54                LoRaMacMlmeRequest
+                0x08013f44      0x348 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08013f44                LoRaMacMlmeRequest
  .text.LoRaMacMcpsRequest
-                0x0801429c      0x270 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x0801429c                LoRaMacMcpsRequest
+                0x0801428c      0x270 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801428c                LoRaMacMcpsRequest
  .text.LoRaMacTestSetDutyCycleOn
-                0x0801450c       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x0801450c                LoRaMacTestSetDutyCycleOn
+                0x080144fc       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x080144fc                LoRaMacTestSetDutyCycleOn
  .text.LoRaMacDeInitialization
-                0x08014558       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
-                0x08014558                LoRaMacDeInitialization
+                0x08014548       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x08014548                LoRaMacDeInitialization
  .text.LoRaMacAdrCalcNext
-                0x080145a4      0x172 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.o
-                0x080145a4                LoRaMacAdrCalcNext
+                0x08014594      0x172 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.o
+                0x08014594                LoRaMacAdrCalcNext
  .text.LoRaMacClassBInit
-                0x08014716       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014716                LoRaMacClassBInit
+                0x08014706       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014706                LoRaMacClassBInit
  .text.LoRaMacClassBSetBeaconState
-                0x0801472c       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x0801472c                LoRaMacClassBSetBeaconState
+                0x0801471c       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801471c                LoRaMacClassBSetBeaconState
  .text.LoRaMacClassBSetPingSlotState
-                0x08014740       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014740                LoRaMacClassBSetPingSlotState
+                0x08014730       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014730                LoRaMacClassBSetPingSlotState
  .text.LoRaMacClassBSetMulticastSlotState
-                0x08014754       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014754                LoRaMacClassBSetMulticastSlotState
+                0x08014744       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014744                LoRaMacClassBSetMulticastSlotState
  .text.LoRaMacClassBIsAcquisitionInProgress
-                0x08014768        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014768                LoRaMacClassBIsAcquisitionInProgress
+                0x08014758        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014758                LoRaMacClassBIsAcquisitionInProgress
  .text.LoRaMacClassBBeaconTimerEvent
-                0x08014776       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014776                LoRaMacClassBBeaconTimerEvent
+                0x08014766       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014766                LoRaMacClassBBeaconTimerEvent
  .text.LoRaMacClassBPingSlotTimerEvent
-                0x08014788       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014788                LoRaMacClassBPingSlotTimerEvent
+                0x08014778       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014778                LoRaMacClassBPingSlotTimerEvent
  .text.LoRaMacClassBMulticastSlotTimerEvent
-                0x0801479a       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x0801479a                LoRaMacClassBMulticastSlotTimerEvent
+                0x0801478a       0x12 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801478a                LoRaMacClassBMulticastSlotTimerEvent
  .text.LoRaMacClassBRxBeacon
-                0x080147ac       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147ac                LoRaMacClassBRxBeacon
+                0x0801479c       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801479c                LoRaMacClassBRxBeacon
  .text.LoRaMacClassBIsBeaconExpected
-                0x080147c4        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147c4                LoRaMacClassBIsBeaconExpected
+                0x080147b4        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080147b4                LoRaMacClassBIsBeaconExpected
  .text.LoRaMacClassBIsPingExpected
-                0x080147d2        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147d2                LoRaMacClassBIsPingExpected
+                0x080147c2        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080147c2                LoRaMacClassBIsPingExpected
  .text.LoRaMacClassBIsMulticastExpected
-                0x080147e0        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147e0                LoRaMacClassBIsMulticastExpected
+                0x080147d0        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080147d0                LoRaMacClassBIsMulticastExpected
  .text.LoRaMacClassBIsBeaconModeActive
-                0x080147ee        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147ee                LoRaMacClassBIsBeaconModeActive
+                0x080147de        0xe ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080147de                LoRaMacClassBIsBeaconModeActive
  .text.LoRaMacClassBSetPingSlotInfo
-                0x080147fc       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080147fc                LoRaMacClassBSetPingSlotInfo
+                0x080147ec       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080147ec                LoRaMacClassBSetPingSlotInfo
  .text.LoRaMacClassBHaltBeaconing
-                0x08014810        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014810                LoRaMacClassBHaltBeaconing
+                0x08014800        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014800                LoRaMacClassBHaltBeaconing
  .text.LoRaMacClassBResumeBeaconing
-                0x0801481c        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x0801481c                LoRaMacClassBResumeBeaconing
+                0x0801480c        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801480c                LoRaMacClassBResumeBeaconing
  .text.LoRaMacClassBSwitchClass
-                0x08014828       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014828                LoRaMacClassBSwitchClass
+                0x08014818       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014818                LoRaMacClassBSwitchClass
  .text.LoRaMacClassBMibGetRequestConfirm
-                0x0801483e       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x0801483e                LoRaMacClassBMibGetRequestConfirm
+                0x0801482e       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801482e                LoRaMacClassBMibGetRequestConfirm
  .text.LoRaMacMibClassBSetRequestConfirm
-                0x08014852       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014852                LoRaMacMibClassBSetRequestConfirm
+                0x08014842       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014842                LoRaMacMibClassBSetRequestConfirm
  .text.LoRaMacClassBPingSlotInfoAns
-                0x08014866        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014866                LoRaMacClassBPingSlotInfoAns
+                0x08014856        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014856                LoRaMacClassBPingSlotInfoAns
  .text.LoRaMacClassBPingSlotChannelReq
-                0x08014872       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x08014872                LoRaMacClassBPingSlotChannelReq
+                0x08014862       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014862                LoRaMacClassBPingSlotChannelReq
  .text.LoRaMacClassBBeaconTimingAns
-                0x0801488a       0x1a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x0801488a                LoRaMacClassBBeaconTimingAns
+                0x0801487a       0x1a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x0801487a                LoRaMacClassBBeaconTimingAns
  .text.LoRaMacClassBDeviceTimeAns
-                0x080148a4        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148a4                LoRaMacClassBDeviceTimeAns
+                0x08014894        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x08014894                LoRaMacClassBDeviceTimeAns
  .text.LoRaMacClassBBeaconFreqReq
-                0x080148b0       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148b0                LoRaMacClassBBeaconFreqReq
+                0x080148a0       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080148a0                LoRaMacClassBBeaconFreqReq
  .text.LoRaMacClassBIsUplinkCollision
-                0x080148c4       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148c4                LoRaMacClassBIsUplinkCollision
+                0x080148b4       0x14 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080148b4                LoRaMacClassBIsUplinkCollision
  .text.LoRaMacClassBStopRxSlots
-                0x080148d8        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148d8                LoRaMacClassBStopRxSlots
+                0x080148c8        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080148c8                LoRaMacClassBStopRxSlots
  .text.LoRaMacClassBSetFPendingBit
-                0x080148e4       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148e4                LoRaMacClassBSetFPendingBit
+                0x080148d4       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080148d4                LoRaMacClassBSetFPendingBit
  .text.LoRaMacClassBProcess
-                0x080148fa        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
-                0x080148fa                LoRaMacClassBProcess
+                0x080148ea        0xc ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+                0x080148ea                LoRaMacClassBProcess
  .text.IsSlotFree
-                0x08014906       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x080148f6       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.MallocNewMacCommandSlot
-                0x08014940       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014930       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.FreeMacCommandSlot
-                0x08014990       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014980       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.LinkedListInit
-                0x080149b6       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x080149a6       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.LinkedListAdd
-                0x080149e0       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x080149d0       0x50 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.LinkedListGetPrevious
-                0x08014a30       0x52 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014a20       0x52 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.LinkedListRemove
-                0x08014a82       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
- *fill*         0x08014ae6        0x2 
+                0x08014a72       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+ *fill*         0x08014ad6        0x2 
  .text.IsSticky
-                0x08014ae8       0x48 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014ad8       0x48 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
  .text.IsConfirmationRequired
-                0x08014b30       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
- *fill*         0x08014b46        0x2 
+                0x08014b20       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+ *fill*         0x08014b36        0x2 
  .text.LoRaMacCommandsInit
-                0x08014b48       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014b48                LoRaMacCommandsInit
+                0x08014b38       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014b38                LoRaMacCommandsInit
  .text.LoRaMacCommandsAddCmd
-                0x08014b68       0x9c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014b68                LoRaMacCommandsAddCmd
+                0x08014b58       0x9c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014b58                LoRaMacCommandsAddCmd
  .text.LoRaMacCommandsRemoveCmd
-                0x08014c04       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014c04                LoRaMacCommandsRemoveCmd
+                0x08014bf4       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014bf4                LoRaMacCommandsRemoveCmd
  .text.LoRaMacCommandsGetCmd
-                0x08014c68       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014c68                LoRaMacCommandsGetCmd
+                0x08014c58       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014c58                LoRaMacCommandsGetCmd
  .text.LoRaMacCommandsRemoveNoneStickyCmds
-                0x08014cb4       0x48 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014cb4                LoRaMacCommandsRemoveNoneStickyCmds
+                0x08014ca4       0x48 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014ca4                LoRaMacCommandsRemoveNoneStickyCmds
  .text.LoRaMacCommandsRemoveStickyAnsCmds
-                0x08014cfc       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014cfc                LoRaMacCommandsRemoveStickyAnsCmds
+                0x08014cec       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014cec                LoRaMacCommandsRemoveStickyAnsCmds
  .text.LoRaMacCommandsGetSizeSerializedCmds
-                0x08014d54       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014d54                LoRaMacCommandsGetSizeSerializedCmds
+                0x08014d44       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014d44                LoRaMacCommandsGetSizeSerializedCmds
  .text.LoRaMacCommandsSerializeCmds
-                0x08014d80       0xa8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014d80                LoRaMacCommandsSerializeCmds
+                0x08014d70       0xa8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014d70                LoRaMacCommandsSerializeCmds
  .text.LoRaMacCommandsGetCmdSize
-                0x08014e28       0xc8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
-                0x08014e28                LoRaMacCommandsGetCmdSize
+                0x08014e18       0xc8 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+                0x08014e18                LoRaMacCommandsGetCmdSize
  .text.IncreaseBufferPointer
-                0x08014ef0       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014ee0       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
  .text.IsListEmpty
-                0x08014f20       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014f10       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
  .text.IsListFull
-                0x08014f40       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014f30       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
  .text.GetElement
-                0x08014f60       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014f50       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
  .text.LoRaMacConfirmQueueInit
-                0x08014fc4       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x08014fc4                LoRaMacConfirmQueueInit
+                0x08014fb4       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014fb4                LoRaMacConfirmQueueInit
  .text.LoRaMacConfirmQueueAdd
-                0x08015008       0x74 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x08015008                LoRaMacConfirmQueueAdd
+                0x08014ff8       0x74 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08014ff8                LoRaMacConfirmQueueAdd
  .text.LoRaMacConfirmQueueRemoveFirst
-                0x0801507c       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x0801507c                LoRaMacConfirmQueueRemoveFirst
+                0x0801506c       0x44 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x0801506c                LoRaMacConfirmQueueRemoveFirst
  .text.LoRaMacConfirmQueueSetStatus
-                0x080150c0       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x080150c0                LoRaMacConfirmQueueSetStatus
+                0x080150b0       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x080150b0                LoRaMacConfirmQueueSetStatus
  .text.LoRaMacConfirmQueueGetStatus
-                0x0801511c       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x0801511c                LoRaMacConfirmQueueGetStatus
+                0x0801510c       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x0801510c                LoRaMacConfirmQueueGetStatus
  .text.LoRaMacConfirmQueueSetStatusCmn
-                0x08015170       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x08015170                LoRaMacConfirmQueueSetStatusCmn
+                0x08015160       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x08015160                LoRaMacConfirmQueueSetStatusCmn
  .text.LoRaMacConfirmQueueIsCmdActive
-                0x080151d8       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x080151d8                LoRaMacConfirmQueueIsCmdActive
+                0x080151c8       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x080151c8                LoRaMacConfirmQueueIsCmdActive
  .text.LoRaMacConfirmQueueHandleCb
-                0x0801520c       0xa4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x0801520c                LoRaMacConfirmQueueHandleCb
+                0x080151fc       0xa4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x080151fc                LoRaMacConfirmQueueHandleCb
  .text.LoRaMacConfirmQueueGetCnt
-                0x080152b0       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x080152b0                LoRaMacConfirmQueueGetCnt
+                0x080152a0       0x18 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x080152a0                LoRaMacConfirmQueueGetCnt
  .text.LoRaMacConfirmQueueIsFull
-                0x080152c8       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
-                0x080152c8                LoRaMacConfirmQueueIsFull
+                0x080152b8       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+                0x080152b8                LoRaMacConfirmQueueIsFull
  .text.PayloadEncrypt
-                0x080152ec      0x132 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x080152dc      0x132 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.PrepareB0
-                0x0801541e       0xd0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x0801540e       0xd0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.ComputeCmacB0
-                0x080154ee       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x080154de       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.VerifyCmacB0
-                0x0801556a      0x11e ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x0801555a      0x11e ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.GetKeyAddrItem
-                0x08015688       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015678       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.DeriveSessionKey10x
-                0x080156d4       0x9e ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
- *fill*         0x08015772        0x2 
+                0x080156c4       0x9e ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+ *fill*         0x08015762        0x2 
  .text.GetLastFcntDown
-                0x08015774       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015764       0x78 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.CheckFCntDown
-                0x080157ec       0x46 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
- *fill*         0x08015832        0x2 
+                0x080157dc       0x46 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+ *fill*         0x08015822        0x2 
  .text.UpdateFCntDown
-                0x08015834       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015824       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.ResetFCnts
-                0x080158b0       0x6c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x080158a0       0x6c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.IsJoinNonce10xOk
-                0x0801591c       0x28 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x0801590c       0x28 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
  .text.LoRaMacCryptoInit
-                0x08015944       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015944                LoRaMacCryptoInit
+                0x08015934       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015934                LoRaMacCryptoInit
  .text.LoRaMacCryptoSetLrWanVersion
-                0x0801599c       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x0801599c                LoRaMacCryptoSetLrWanVersion
+                0x0801598c       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x0801598c                LoRaMacCryptoSetLrWanVersion
  .text.LoRaMacCryptoGetFCntUp
-                0x080159bc       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x080159bc                LoRaMacCryptoGetFCntUp
+                0x080159ac       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x080159ac                LoRaMacCryptoGetFCntUp
  .text.LoRaMacCryptoGetFCntDown
-                0x080159ec       0x98 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x080159ec                LoRaMacCryptoGetFCntDown
+                0x080159dc       0x98 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x080159dc                LoRaMacCryptoGetFCntDown
  .text.LoRaMacCryptoSetMulticastReference
-                0x08015a84       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015a84                LoRaMacCryptoSetMulticastReference
+                0x08015a74       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015a74                LoRaMacCryptoSetMulticastReference
  .text.LoRaMacCryptoSetKey
-                0x08015ad8       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015ad8                LoRaMacCryptoSetKey
+                0x08015ac8       0x70 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015ac8                LoRaMacCryptoSetKey
  .text.LoRaMacCryptoPrepareJoinRequest
-                0x08015b48       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015b48                LoRaMacCryptoPrepareJoinRequest
+                0x08015b38       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015b38                LoRaMacCryptoPrepareJoinRequest
  .text.LoRaMacCryptoHandleJoinAccept
-                0x08015bc4      0x1d4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015bc4                LoRaMacCryptoHandleJoinAccept
+                0x08015bb4      0x1d4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015bb4                LoRaMacCryptoHandleJoinAccept
  .text.LoRaMacCryptoSecureMessage
-                0x08015d98       0xf0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015d98                LoRaMacCryptoSecureMessage
+                0x08015d88       0xf0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015d88                LoRaMacCryptoSecureMessage
  .text.LoRaMacCryptoUnsecureMessage
-                0x08015e88      0x130 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015e88                LoRaMacCryptoUnsecureMessage
+                0x08015e78      0x130 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015e78                LoRaMacCryptoUnsecureMessage
  .text.LoRaMacCryptoDeriveLifeTimeKey
-                0x08015fb8       0x76 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
-                0x08015fb8                LoRaMacCryptoDeriveLifeTimeKey
+                0x08015fa8       0x76 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+                0x08015fa8                LoRaMacCryptoDeriveLifeTimeKey
  .text.LoRaMacParserJoinAccept
-                0x0801602e      0x196 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
-                0x0801602e                LoRaMacParserJoinAccept
+                0x0801601e      0x196 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
+                0x0801601e                LoRaMacParserJoinAccept
  .text.LoRaMacParserData
-                0x080161c4      0x1e4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
-                0x080161c4                LoRaMacParserData
+                0x080161b4      0x1e4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
+                0x080161b4                LoRaMacParserData
  .text.LoRaMacSerializerJoinRequest
-                0x080163a8      0x104 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
-                0x080163a8                LoRaMacSerializerJoinRequest
+                0x08016398      0x104 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
+                0x08016398                LoRaMacSerializerJoinRequest
  .text.LoRaMacSerializerData
-                0x080164ac      0x1ea ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
-                0x080164ac                LoRaMacSerializerData
+                0x0801649c      0x1ea ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
+                0x0801649c                LoRaMacSerializerData
  .text.RegionIsActive
-                0x08016696       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016696                RegionIsActive
+                0x08016686       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016686                RegionIsActive
  .text.RegionGetPhyParam
-                0x080166b6       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080166b6                RegionGetPhyParam
+                0x080166a6       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080166a6                RegionGetPhyParam
  .text.RegionSetBandTxDone
-                0x080166e6       0x22 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080166e6                RegionSetBandTxDone
+                0x080166d6       0x22 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080166d6                RegionSetBandTxDone
  .text.RegionInitDefaults
-                0x08016708       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016708                RegionInitDefaults
+                0x080166f8       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080166f8                RegionInitDefaults
  .text.RegionVerify
-                0x0801672c       0x2e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x0801672c                RegionVerify
+                0x0801671c       0x2e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x0801671c                RegionVerify
  .text.RegionApplyCFList
-                0x0801675a       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x0801675a                RegionApplyCFList
+                0x0801674a       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x0801674a                RegionApplyCFList
  .text.RegionChanMaskSet
-                0x0801677e       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x0801677e                RegionChanMaskSet
+                0x0801676e       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x0801676e                RegionChanMaskSet
  .text.RegionComputeRxWindowParameters
-                0x080167a4       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080167a4                RegionComputeRxWindowParameters
+                0x08016794       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016794                RegionComputeRxWindowParameters
  .text.RegionRxConfig
-                0x080167d8       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080167d8                RegionRxConfig
+                0x080167c8       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080167c8                RegionRxConfig
  .text.RegionTxConfig
-                0x08016802       0x2e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016802                RegionTxConfig
+                0x080167f2       0x2e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080167f2                RegionTxConfig
  .text.RegionLinkAdrReq
-                0x08016830       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016830                RegionLinkAdrReq
+                0x08016820       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016820                RegionLinkAdrReq
  .text.RegionRxParamSetupReq
-                0x08016864       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016864                RegionRxParamSetupReq
+                0x08016854       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016854                RegionRxParamSetupReq
  .text.RegionNewChannelReq
-                0x0801688a       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x0801688a                RegionNewChannelReq
+                0x0801687a       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x0801687a                RegionNewChannelReq
  .text.RegionTxParamSetupReq
-                0x080168b0       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080168b0                RegionTxParamSetupReq
+                0x080168a0       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080168a0                RegionTxParamSetupReq
  .text.RegionDlChannelReq
-                0x080168d6       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080168d6                RegionDlChannelReq
+                0x080168c6       0x26 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080168c6                RegionDlChannelReq
  .text.RegionAlternateDr
-                0x080168fc       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080168fc                RegionAlternateDr
+                0x080168ec       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x080168ec                RegionAlternateDr
  .text.RegionNextChannel
-                0x08016930       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016930                RegionNextChannel
+                0x08016920       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016920                RegionNextChannel
  .text.RegionApplyDrOffset
-                0x08016960       0x42 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x08016960                RegionApplyDrOffset
- *fill*         0x080169a2        0x2 
+                0x08016950       0x42 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016950                RegionApplyDrOffset
+ *fill*         0x08016992        0x2 
  .text.RegionGetVersion
-                0x080169a4       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
-                0x080169a4                RegionGetVersion
+                0x08016994       0x1c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+                0x08016994                RegionGetVersion
  .text.GetDutyCycle
-                0x080169c0       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080169b0       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
  .text.SetMaxTimeCredits
-                0x08016a0c       0x8c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080169fc       0x8c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
  .text.UpdateTimeCredits
-                0x08016a98       0xac ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016a88       0xac ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
  .text.CountChannels
-                0x08016b44       0x52 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016b34       0x52 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
  .text.RegionCommonChanVerifyDr
-                0x08016b96       0xe4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016b96                RegionCommonChanVerifyDr
+                0x08016b86       0xe4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016b86                RegionCommonChanVerifyDr
  .text.RegionCommonValueInRange
-                0x08016c7a       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016c7a                RegionCommonValueInRange
+                0x08016c6a       0x3a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016c6a                RegionCommonValueInRange
  .text.RegionCommonChanDisable
-                0x08016cb4       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016cb4                RegionCommonChanDisable
+                0x08016ca4       0x68 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016ca4                RegionCommonChanDisable
  .text.RegionCommonCountChannels
-                0x08016d1c       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016d1c                RegionCommonCountChannels
+                0x08016d0c       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016d0c                RegionCommonCountChannels
  .text.RegionCommonChanMaskCopy
-                0x08016d74       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016d74                RegionCommonChanMaskCopy
+                0x08016d64       0x4c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016d64                RegionCommonChanMaskCopy
  .text.RegionCommonSetBandTxDone
-                0x08016dc0       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016dc0                RegionCommonSetBandTxDone
+                0x08016db0       0x5c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016db0                RegionCommonSetBandTxDone
  .text.RegionCommonUpdateBandTimeOff
-                0x08016e1c      0x198 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016e1c                RegionCommonUpdateBandTimeOff
+                0x08016e0c      0x198 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016e0c                RegionCommonUpdateBandTimeOff
  .text.RegionCommonParseLinkAdrReq
-                0x08016fb4       0xa2 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08016fb4                RegionCommonParseLinkAdrReq
+                0x08016fa4       0xa2 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08016fa4                RegionCommonParseLinkAdrReq
  .text.RegionCommonLinkAdrReqVerifyParams
-                0x08017056      0x110 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017056                RegionCommonLinkAdrReqVerifyParams
- *fill*         0x08017166        0x2 
+                0x08017046      0x110 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017046                RegionCommonLinkAdrReqVerifyParams
+ *fill*         0x08017156        0x2 
  .text.RegionCommonComputeSymbolTimeLoRa
-                0x08017168       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017168                RegionCommonComputeSymbolTimeLoRa
+                0x08017158       0x2c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017158                RegionCommonComputeSymbolTimeLoRa
  .text.RegionCommonComputeSymbolTimeFsk
-                0x08017194       0x1e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017194                RegionCommonComputeSymbolTimeFsk
- *fill*         0x080171b2        0x2 
+                0x08017184       0x1e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017184                RegionCommonComputeSymbolTimeFsk
+ *fill*         0x080171a2        0x2 
  .text.RegionCommonComputeRxWindowParameters
-                0x080171b4      0x170 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x080171b4                RegionCommonComputeRxWindowParameters
+                0x080171a4      0x170 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080171a4                RegionCommonComputeRxWindowParameters
  .text.RegionCommonComputeTxPower
-                0x08017324       0x62 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017324                RegionCommonComputeTxPower
+                0x08017314       0x62 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017314                RegionCommonComputeTxPower
  .text.RegionCommonCountNbOfEnabledChannels
-                0x08017386      0x17c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017386                RegionCommonCountNbOfEnabledChannels
+                0x08017376      0x17c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017376                RegionCommonCountNbOfEnabledChannels
  .text.RegionCommonIdentifyChannels
-                0x08017502       0xc4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017502                RegionCommonIdentifyChannels
+                0x080174f2       0xc4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080174f2                RegionCommonIdentifyChannels
  .text.RegionCommonGetNextLowerTxDr
-                0x080175c6       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x080175c6                RegionCommonGetNextLowerTxDr
+                0x080175b6       0x7c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080175b6                RegionCommonGetNextLowerTxDr
  .text.RegionCommonLimitTxPower
-                0x08017642       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x08017642                RegionCommonLimitTxPower
+                0x08017632       0x2a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017632                RegionCommonLimitTxPower
  .text.RegionCommonGetBandwidth
-                0x0801766c       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x0801766c                RegionCommonGetBandwidth
+                0x0801765c       0x3c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x0801765c                RegionCommonGetBandwidth
  .text.RegionCommonRxConfigPrint
-                0x080176a8       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x080176a8                RegionCommonRxConfigPrint
+                0x08017698       0x64 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x08017698                RegionCommonRxConfigPrint
  .text.RegionCommonTxConfigPrint
-                0x0801770c       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
-                0x0801770c                RegionCommonTxConfigPrint
+                0x080176fc       0x30 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+                0x080176fc                RegionCommonTxConfigPrint
  .text.VerifyRfFreq
-                0x0801773c       0xec ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x0801772c       0xec ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
  .text.GetTimeOnAir
-                0x08017828       0xa0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017818       0xa0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
  .text.RegionEU868GetPhyParam
-                0x080178c8      0x28c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x080178c8                RegionEU868GetPhyParam
+                0x080178b8      0x28c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x080178b8                RegionEU868GetPhyParam
  .text.RegionEU868SetBandTxDone
-                0x08017b54       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017b54                RegionEU868SetBandTxDone
+                0x08017b44       0x58 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017b44                RegionEU868SetBandTxDone
  .text.RegionEU868InitDefaults
-                0x08017bac      0x13c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017bac                RegionEU868InitDefaults
+                0x08017b9c      0x13c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017b9c                RegionEU868InitDefaults
  .text.RegionEU868Verify
-                0x08017ce8       0xf8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017ce8                RegionEU868Verify
+                0x08017cd8       0xf8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017cd8                RegionEU868Verify
  .text.RegionEU868ApplyCFList
-                0x08017de0       0xe8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017de0                RegionEU868ApplyCFList
+                0x08017dd0       0xe8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017dd0                RegionEU868ApplyCFList
  .text.RegionEU868ChanMaskSet
-                0x08017ec8       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017ec8                RegionEU868ChanMaskSet
+                0x08017eb8       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017eb8                RegionEU868ChanMaskSet
  .text.RegionEU868ComputeRxWindowParameters
-                0x08017f1c       0xb4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017f1c                RegionEU868ComputeRxWindowParameters
+                0x08017f0c       0xb4 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017f0c                RegionEU868ComputeRxWindowParameters
  .text.RegionEU868RxConfig
-                0x08017fd0      0x1a0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08017fd0                RegionEU868RxConfig
+                0x08017fc0      0x1a0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08017fc0                RegionEU868RxConfig
  .text.RegionEU868TxConfig
-                0x08018170      0x1a0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018170                RegionEU868TxConfig
+                0x08018160      0x1a0 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018160                RegionEU868TxConfig
  .text.RegionEU868LinkAdrReq
-                0x08018310      0x244 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018310                RegionEU868LinkAdrReq
+                0x08018300      0x244 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018300                RegionEU868LinkAdrReq
  .text.RegionEU868RxParamSetupReq
-                0x08018554       0x7a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018554                RegionEU868RxParamSetupReq
- *fill*         0x080185ce        0x2 
+                0x08018544       0x7a ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018544                RegionEU868RxParamSetupReq
+ *fill*         0x080185be        0x2 
  .text.RegionEU868NewChannelReq
-                0x080185d0       0xbc ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x080185d0                RegionEU868NewChannelReq
+                0x080185c0       0xbc ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x080185c0                RegionEU868NewChannelReq
  .text.RegionEU868TxParamSetupReq
-                0x0801868c       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x0801868c                RegionEU868TxParamSetupReq
- *fill*         0x080186a2        0x2 
+                0x0801867c       0x16 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x0801867c                RegionEU868TxParamSetupReq
+ *fill*         0x08018692        0x2 
  .text.RegionEU868DlChannelReq
-                0x080186a4       0x94 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x080186a4                RegionEU868DlChannelReq
+                0x08018694       0x94 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018694                RegionEU868DlChannelReq
  .text.RegionEU868AlternateDr
-                0x08018738       0x1e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018738                RegionEU868AlternateDr
- *fill*         0x08018756        0x2 
+                0x08018728       0x1e ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018728                RegionEU868AlternateDr
+ *fill*         0x08018746        0x2 
  .text.RegionEU868NextChannel
-                0x08018758      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018758                RegionEU868NextChannel
+                0x08018748      0x15c ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018748                RegionEU868NextChannel
  .text.RegionEU868ChannelAdd
-                0x080188b4      0x144 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x080188b4                RegionEU868ChannelAdd
+                0x080188a4      0x144 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x080188a4                RegionEU868ChannelAdd
  .text.RegionEU868ChannelsRemove
-                0x080189f8       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x080189f8                RegionEU868ChannelsRemove
+                0x080189e8       0x54 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x080189e8                RegionEU868ChannelsRemove
  .text.RegionEU868ApplyDrOffset
-                0x08018a4c       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
-                0x08018a4c                RegionEU868ApplyDrOffset
- .text.rand1    0x08018a80       0x44 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
- .text.srand1   0x08018ac4       0x1c ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018ac4                srand1
- .text.randr    0x08018ae0       0x2e ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018ae0                randr
- .text.memcpy1  0x08018b0e       0x36 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018b0e                memcpy1
- .text.memcpyr  0x08018b44       0x40 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018b44                memcpyr
- .text.memset1  0x08018b84       0x32 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018b84                memset1
- *fill*         0x08018bb6        0x2 
- .text.Crc32    0x08018bb8       0x78 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
-                0x08018bb8                Crc32
+                0x08018a3c       0x34 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x08018a3c                RegionEU868ApplyDrOffset
+ .text.rand1    0x08018a70       0x44 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+ .text.srand1   0x08018ab4       0x1c ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018ab4                srand1
+ .text.randr    0x08018ad0       0x2e ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018ad0                randr
+ .text.memcpy1  0x08018afe       0x36 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018afe                memcpy1
+ .text.memcpyr  0x08018b34       0x40 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018b34                memcpyr
+ .text.memset1  0x08018b74       0x32 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018b74                memset1
+ *fill*         0x08018ba6        0x2 
+ .text.Crc32    0x08018ba8       0x78 ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+                0x08018ba8                Crc32
  .text.RadioInit
-                0x08018c30       0xb8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018c20       0xb8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioGetStatus
-                0x08018ce8       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- *fill*         0x08018d16        0x2 
+                0x08018cd8       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ *fill*         0x08018d06        0x2 
  .text.RadioSetModem
-                0x08018d18       0xb8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018d08       0xb8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetChannel
-                0x08018dd0       0x16 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018dc0       0x16 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioIsChannelFree
-                0x08018de6       0xb4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018dd6       0xb4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioRandom
-                0x08018e9a       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018e8a       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetRxConfig
-                0x08018ec0      0x418 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08018eb0      0x418 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetTxConfig
-                0x080192d8      0x224 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080192c8      0x224 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioCheckRfFrequency
-                0x080194fc       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080194ec       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioGetLoRaBandwidthInHz
-                0x08019510       0xac ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019500       0xac ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioGetGfskTimeOnAirNumerator
-                0x080195bc       0x54 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080195ac       0x54 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioGetLoRaTimeOnAirNumerator
-                0x08019610      0x102 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- *fill*         0x08019712        0x2 
+                0x08019600      0x102 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ *fill*         0x08019702        0x2 
  .text.RadioTimeOnAir
-                0x08019714       0xb0 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019704       0xb0 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSend
-                0x080197c4      0x200 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080197b4      0x200 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSleep
-                0x080199c4       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080199b4       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioStandby
-                0x080199ea        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- .text.RadioRx  0x080199f8       0x80 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x080199da        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ .text.RadioRx  0x080199e8       0x80 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioRxBoosted
-                0x08019a78       0x80 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019a68       0x80 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetRxDutyCycle
-                0x08019af8       0x48 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019ae8       0x48 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioStartCad
-                0x08019b40       0x30 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019b30       0x30 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetTxContinuousWave
-                0x08019b70       0x64 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019b60       0x64 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioRssi
-                0x08019bd4       0x18 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019bc4       0x18 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioWrite
-                0x08019bec       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019bdc       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioRead
-                0x08019c10       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019c00       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioWriteRegisters
-                0x08019c2c       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019c1c       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioReadRegisters
-                0x08019c52       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019c42       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetMaxPayloadLength
-                0x08019c78       0x5c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019c68       0x5c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetPublicNetwork
-                0x08019cd4       0x5c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019cc4       0x5c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioGetWakeupTime
-                0x08019d30       0x10 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019d20       0x10 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioOnTxTimeoutIrq
-                0x08019d40       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019d30       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioOnRxTimeoutIrq
-                0x08019d54       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019d44       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioOnTxTimeoutProcess
-                0x08019d68       0x28 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019d58       0x28 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioOnRxTimeoutProcess
-                0x08019d90       0x28 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019d80       0x28 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioOnDioIrq
-                0x08019db8       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019da8       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioIrqProcess
-                0x08019ddc      0x44c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x08019dcc      0x44c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioTxPrbs
-                0x0801a228       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801a218       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioTxCw
-                0x0801a260       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801a250       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.payload_integration
-                0x0801a298      0x120 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801a288      0x120 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetRxGenericConfig
-                0x0801a3b8      0x38c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801a3a8      0x38c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioSetTxGenericConfig
-                0x0801a744      0x46c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801a734      0x46c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioLrFhssSetCfg
-                0x0801abb0       0x18 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801aba0       0x18 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
  .text.RadioLrFhssGetTimeOnAirInMs
-                0x0801abc8       0x16 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- *fill*         0x0801abde        0x2 
+                0x0801abb8       0x16 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ *fill*         0x0801abce        0x2 
  .text.SUBGRF_Init
-                0x0801abe0       0x90 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801abe0                SUBGRF_Init
+                0x0801abd0       0x90 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801abd0                SUBGRF_Init
  .text.SUBGRF_GetOperatingMode
-                0x0801ac70       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ac70                SUBGRF_GetOperatingMode
+                0x0801ac60       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ac60                SUBGRF_GetOperatingMode
  .text.SUBGRF_SetPayload
-                0x0801ac84       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ac84                SUBGRF_SetPayload
+                0x0801ac74       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ac74                SUBGRF_SetPayload
  .text.SUBGRF_GetPayload
-                0x0801aca4       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801aca4                SUBGRF_GetPayload
+                0x0801ac94       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ac94                SUBGRF_GetPayload
  .text.SUBGRF_SendPayload
-                0x0801ace8       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ace8                SUBGRF_SendPayload
+                0x0801acd8       0x26 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801acd8                SUBGRF_SendPayload
  .text.SUBGRF_SetSyncWord
-                0x0801ad0e       0x1e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ad0e                SUBGRF_SetSyncWord
+                0x0801acfe       0x1e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801acfe                SUBGRF_SetSyncWord
  .text.SUBGRF_SetCrcSeed
-                0x0801ad2c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ad2c                SUBGRF_SetCrcSeed
+                0x0801ad1c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ad1c                SUBGRF_SetCrcSeed
  .text.SUBGRF_SetCrcPolynomial
-                0x0801ad6c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ad6c                SUBGRF_SetCrcPolynomial
+                0x0801ad5c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ad5c                SUBGRF_SetCrcPolynomial
  .text.SUBGRF_SetWhiteningSeed
-                0x0801adac       0x66 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801adac                SUBGRF_SetWhiteningSeed
+                0x0801ad9c       0x66 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ad9c                SUBGRF_SetWhiteningSeed
  .text.SUBGRF_GetRandom
-                0x0801ae12       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ae12                SUBGRF_GetRandom
- *fill*         0x0801ae9e        0x2 
+                0x0801ae02       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ae02                SUBGRF_GetRandom
+ *fill*         0x0801ae8e        0x2 
  .text.SUBGRF_SetSleep
-                0x0801aea0       0x64 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801aea0                SUBGRF_SetSleep
+                0x0801ae90       0x64 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ae90                SUBGRF_SetSleep
  .text.SUBGRF_SetStandby
-                0x0801af04       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801af04                SUBGRF_SetStandby
+                0x0801aef4       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801aef4                SUBGRF_SetStandby
  .text.SUBGRF_SetTx
-                0x0801af3c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801af3c                SUBGRF_SetTx
+                0x0801af2c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801af2c                SUBGRF_SetTx
  .text.SUBGRF_SetRx
-                0x0801af7c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801af7c                SUBGRF_SetRx
+                0x0801af6c       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801af6c                SUBGRF_SetRx
  .text.SUBGRF_SetRxBoosted
-                0x0801afbc       0x48 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801afbc                SUBGRF_SetRxBoosted
+                0x0801afac       0x48 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801afac                SUBGRF_SetRxBoosted
  .text.SUBGRF_SetRxDutyCycle
-                0x0801b004       0x58 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b004                SUBGRF_SetRxDutyCycle
+                0x0801aff4       0x58 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801aff4                SUBGRF_SetRxDutyCycle
  .text.SUBGRF_SetCad
-                0x0801b05c       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b05c                SUBGRF_SetCad
+                0x0801b04c       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b04c                SUBGRF_SetCad
  .text.SUBGRF_SetTxContinuousWave
-                0x0801b078       0x12 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b078                SUBGRF_SetTxContinuousWave
+                0x0801b068       0x12 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b068                SUBGRF_SetTxContinuousWave
  .text.SUBGRF_SetTxInfinitePreamble
-                0x0801b08a       0x12 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b08a                SUBGRF_SetTxInfinitePreamble
+                0x0801b07a       0x12 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b07a                SUBGRF_SetTxInfinitePreamble
  .text.SUBGRF_SetStopRxTimerOnPreambleDetect
-                0x0801b09c       0x1e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b09c                SUBGRF_SetStopRxTimerOnPreambleDetect
+                0x0801b08c       0x1e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b08c                SUBGRF_SetStopRxTimerOnPreambleDetect
  .text.SUBGRF_SetLoRaSymbNumTimeout
-                0x0801b0ba       0x5e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b0ba                SUBGRF_SetLoRaSymbNumTimeout
+                0x0801b0aa       0x5e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b0aa                SUBGRF_SetLoRaSymbNumTimeout
  .text.SUBGRF_SetRegulatorMode
-                0x0801b118       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b118                SUBGRF_SetRegulatorMode
+                0x0801b108       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b108                SUBGRF_SetRegulatorMode
  .text.SUBGRF_Calibrate
-                0x0801b146       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b146                SUBGRF_Calibrate
- *fill*         0x0801b1d2        0x2 
+                0x0801b136       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b136                SUBGRF_Calibrate
+ *fill*         0x0801b1c2        0x2 
  .text.SUBGRF_CalibrateImage
-                0x0801b1d4       0x94 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b1d4                SUBGRF_CalibrateImage
+                0x0801b1c4       0x94 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b1c4                SUBGRF_CalibrateImage
  .text.SUBGRF_SetPaConfig
-                0x0801b268       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b268                SUBGRF_SetPaConfig
+                0x0801b258       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b258                SUBGRF_SetPaConfig
  .text.SUBGRF_SetDioIrqParams
-                0x0801b2ac       0x74 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b2ac                SUBGRF_SetDioIrqParams
+                0x0801b29c       0x74 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b29c                SUBGRF_SetDioIrqParams
  .text.SUBGRF_SetTcxoMode
-                0x0801b320       0x42 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b320                SUBGRF_SetTcxoMode
- *fill*         0x0801b362        0x2 
+                0x0801b310       0x42 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b310                SUBGRF_SetTcxoMode
+ *fill*         0x0801b352        0x2 
  .text.SUBGRF_SetRfFrequency
-                0x0801b364       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b364                SUBGRF_SetRfFrequency
+                0x0801b354       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b354                SUBGRF_SetRfFrequency
  .text.SUBGRF_SetPacketType
-                0x0801b3f0       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b3f0                SUBGRF_SetPacketType
+                0x0801b3e0       0x38 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b3e0                SUBGRF_SetPacketType
  .text.SUBGRF_GetPacketType
-                0x0801b428       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b428                SUBGRF_GetPacketType
+                0x0801b418       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b418                SUBGRF_GetPacketType
  .text.SUBGRF_SetTxParams
-                0x0801b43c      0x19a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b43c                SUBGRF_SetTxParams
- *fill*         0x0801b5d6        0x2 
+                0x0801b42c      0x19a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b42c                SUBGRF_SetTxParams
+ *fill*         0x0801b5c6        0x2 
  .text.SUBGRF_SetModulationParams
-                0x0801b5d8      0x1a4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b5d8                SUBGRF_SetModulationParams
+                0x0801b5c8      0x1a4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b5c8                SUBGRF_SetModulationParams
  .text.SUBGRF_SetPacketParams
-                0x0801b77c      0x13c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b77c                SUBGRF_SetPacketParams
+                0x0801b76c      0x13c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b76c                SUBGRF_SetPacketParams
  .text.SUBGRF_SetBufferBaseAddress
-                0x0801b8b8       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b8b8                SUBGRF_SetBufferBaseAddress
+                0x0801b8a8       0x2e ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b8a8                SUBGRF_SetBufferBaseAddress
  .text.SUBGRF_GetRssiInst
-                0x0801b8e6       0x2a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b8e6                SUBGRF_GetRssiInst
+                0x0801b8d6       0x2a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b8d6                SUBGRF_GetRssiInst
  .text.SUBGRF_GetRxBufferStatus
-                0x0801b910       0x58 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b910                SUBGRF_GetRxBufferStatus
+                0x0801b900       0x58 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b900                SUBGRF_GetRxBufferStatus
  .text.SUBGRF_GetPacketStatus
-                0x0801b968       0xa4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801b968                SUBGRF_GetPacketStatus
+                0x0801b958       0xa4 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b958                SUBGRF_GetPacketStatus
  .text.SUBGRF_WriteRegister
-                0x0801ba0c       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ba0c                SUBGRF_WriteRegister
+                0x0801b9fc       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801b9fc                SUBGRF_WriteRegister
  .text.SUBGRF_ReadRegister
-                0x0801ba50       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ba50                SUBGRF_ReadRegister
+                0x0801ba40       0x40 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ba40                SUBGRF_ReadRegister
  .text.SUBGRF_WriteRegisters
-                0x0801ba90       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801ba90                SUBGRF_WriteRegisters
+                0x0801ba80       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801ba80                SUBGRF_WriteRegisters
  .text.SUBGRF_ReadRegisters
-                0x0801bad4       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bad4                SUBGRF_ReadRegisters
+                0x0801bac4       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bac4                SUBGRF_ReadRegisters
  .text.SUBGRF_WriteBuffer
-                0x0801bb18       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bb18                SUBGRF_WriteBuffer
+                0x0801bb08       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bb08                SUBGRF_WriteBuffer
  .text.SUBGRF_ReadBuffer
-                0x0801bb5c       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bb5c                SUBGRF_ReadBuffer
+                0x0801bb4c       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bb4c                SUBGRF_ReadBuffer
  .text.SUBGRF_WriteCommand
-                0x0801bba0       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bba0                SUBGRF_WriteCommand
+                0x0801bb90       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bb90                SUBGRF_WriteCommand
  .text.SUBGRF_ReadCommand
-                0x0801bbe4       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bbe4                SUBGRF_ReadCommand
+                0x0801bbd4       0x44 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bbd4                SUBGRF_ReadCommand
  .text.SUBGRF_SetSwitch
-                0x0801bc28       0x50 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bc28                SUBGRF_SetSwitch
+                0x0801bc18       0x50 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bc18                SUBGRF_SetSwitch
  .text.SUBGRF_SetRfTxPower
-                0x0801bc78       0x68 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bc78                SUBGRF_SetRfTxPower
+                0x0801bc68       0x68 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bc68                SUBGRF_SetRfTxPower
  .text.SUBGRF_GetRadioWakeUpTime
-                0x0801bce0        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bce0                SUBGRF_GetRadioWakeUpTime
- *fill*         0x0801bcee        0x2 
+                0x0801bcd0        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bcd0                SUBGRF_GetRadioWakeUpTime
+ *fill*         0x0801bcde        0x2 
  .text.HAL_SUBGHZ_TxCpltCallback
-                0x0801bcf0       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bcf0                HAL_SUBGHZ_TxCpltCallback
+                0x0801bce0       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bce0                HAL_SUBGHZ_TxCpltCallback
  .text.HAL_SUBGHZ_RxCpltCallback
-                0x0801bd0c       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bd0c                HAL_SUBGHZ_RxCpltCallback
+                0x0801bcfc       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bcfc                HAL_SUBGHZ_RxCpltCallback
  .text.HAL_SUBGHZ_CRCErrorCallback
-                0x0801bd28       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bd28                HAL_SUBGHZ_CRCErrorCallback
+                0x0801bd18       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bd18                HAL_SUBGHZ_CRCErrorCallback
  .text.HAL_SUBGHZ_CADStatusCallback
-                0x0801bd44       0x3c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bd44                HAL_SUBGHZ_CADStatusCallback
+                0x0801bd34       0x3c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bd34                HAL_SUBGHZ_CADStatusCallback
  .text.HAL_SUBGHZ_RxTxTimeoutCallback
-                0x0801bd80       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bd80                HAL_SUBGHZ_RxTxTimeoutCallback
+                0x0801bd70       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bd70                HAL_SUBGHZ_RxTxTimeoutCallback
  .text.HAL_SUBGHZ_HeaderErrorCallback
-                0x0801bda0       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bda0                HAL_SUBGHZ_HeaderErrorCallback
+                0x0801bd90       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bd90                HAL_SUBGHZ_HeaderErrorCallback
  .text.HAL_SUBGHZ_PreambleDetectedCallback
-                0x0801bdbc       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bdbc                HAL_SUBGHZ_PreambleDetectedCallback
+                0x0801bdac       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bdac                HAL_SUBGHZ_PreambleDetectedCallback
  .text.HAL_SUBGHZ_SyncWordValidCallback
-                0x0801bdd8       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bdd8                HAL_SUBGHZ_SyncWordValidCallback
+                0x0801bdc8       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bdc8                HAL_SUBGHZ_SyncWordValidCallback
  .text.HAL_SUBGHZ_HeaderValidCallback
-                0x0801bdf4       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bdf4                HAL_SUBGHZ_HeaderValidCallback
+                0x0801bde4       0x1c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801bde4                HAL_SUBGHZ_HeaderValidCallback
  .text.HAL_SUBGHZ_LrFhssHopCallback
-                0x0801be10       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801be10                HAL_SUBGHZ_LrFhssHopCallback
+                0x0801be00       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801be00                HAL_SUBGHZ_LrFhssHopCallback
  .text.Radio_SMPS_Set
-                0x0801be30       0x42 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
- *fill*         0x0801be72        0x2 
+                0x0801be20       0x42 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+ *fill*         0x0801be62        0x2 
  .text.SUBGRF_GetFskBandwidthRegValue
-                0x0801be74       0x50 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801be74                SUBGRF_GetFskBandwidthRegValue
+                0x0801be64       0x50 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801be64                SUBGRF_GetFskBandwidthRegValue
  .text.SUBGRF_GetCFO
-                0x0801bec4       0xe8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
-                0x0801bec4                SUBGRF_GetCFO
+                0x0801beb4       0xe8 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801beb4                SUBGRF_GetCFO
  .text.RFW_TransmitLongPacket
-                0x0801bfac       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801bfac                RFW_TransmitLongPacket
+                0x0801bf9c       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801bf9c                RFW_TransmitLongPacket
  .text.RFW_ReceiveLongPacket
-                0x0801bfd0       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801bfd0                RFW_ReceiveLongPacket
+                0x0801bfc0       0x24 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801bfc0                RFW_ReceiveLongPacket
  .text.RFW_Init
-                0x0801bff4       0x1a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801bff4                RFW_Init
+                0x0801bfe4       0x1a ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801bfe4                RFW_Init
  .text.RFW_DeInit
-                0x0801c00e        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c00e                RFW_DeInit
+                0x0801bffe        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801bffe                RFW_DeInit
  .text.RFW_Is_Init
-                0x0801c01a        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c01a                RFW_Is_Init
+                0x0801c00a        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c00a                RFW_Is_Init
  .text.RFW_Is_LongPacketModeEnabled
-                0x0801c028        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c028                RFW_Is_LongPacketModeEnabled
+                0x0801c018        0xe ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c018                RFW_Is_LongPacketModeEnabled
  .text.RFW_SetAntSwitch
-                0x0801c036       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c036                RFW_SetAntSwitch
+                0x0801c026       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c026                RFW_SetAntSwitch
  .text.RFW_TransmitInit
-                0x0801c04a       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c04a                RFW_TransmitInit
+                0x0801c03a       0x20 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c03a                RFW_TransmitInit
  .text.RFW_ReceiveInit
-                0x0801c06a       0x10 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c06a                RFW_ReceiveInit
+                0x0801c05a       0x10 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c05a                RFW_ReceiveInit
  .text.RFW_DeInit_TxLongPacket
-                0x0801c07a        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c07a                RFW_DeInit_TxLongPacket
+                0x0801c06a        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c06a                RFW_DeInit_TxLongPacket
  .text.RFW_ReceivePayload
-                0x0801c086        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c086                RFW_ReceivePayload
+                0x0801c076        0xc ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c076                RFW_ReceivePayload
  .text.RFW_SetRadioModem
-                0x0801c092       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
-                0x0801c092                RFW_SetRadioModem
- *fill*         0x0801c0a6        0x2 
+                0x0801c082       0x14 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+                0x0801c082                RFW_SetRadioModem
+ *fill*         0x0801c096        0x2 
  .text.UTIL_LPM_Init
-                0x0801c0a8       0x20 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
-                0x0801c0a8                UTIL_LPM_Init
+                0x0801c098       0x20 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
+                0x0801c098                UTIL_LPM_Init
  .text.UTIL_LPM_SetStopMode
-                0x0801c0c8       0x60 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
-                0x0801c0c8                UTIL_LPM_SetStopMode
+                0x0801c0b8       0x60 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
+                0x0801c0b8                UTIL_LPM_SetStopMode
  .text.UTIL_LPM_SetOffMode
-                0x0801c128       0x60 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
-                0x0801c128                UTIL_LPM_SetOffMode
+                0x0801c118       0x60 ./Utilities/lpm/tiny_lpm/stm32_lpm.o
+                0x0801c118                UTIL_LPM_SetOffMode
  .text.UTIL_LPM_EnterLowPower
-                0x0801c188       0x6c ./Utilities/lpm/tiny_lpm/stm32_lpm.o
-                0x0801c188                UTIL_LPM_EnterLowPower
+                0x0801c178       0x6c ./Utilities/lpm/tiny_lpm/stm32_lpm.o
+                0x0801c178                UTIL_LPM_EnterLowPower
  .text.UTIL_MEM_cpy_8
-                0x0801c1f4       0x3e ./Utilities/misc/stm32_mem.o
-                0x0801c1f4                UTIL_MEM_cpy_8
+                0x0801c1e4       0x3e ./Utilities/misc/stm32_mem.o
+                0x0801c1e4                UTIL_MEM_cpy_8
  .text.UTIL_MEM_set_8
-                0x0801c232       0x36 ./Utilities/misc/stm32_mem.o
-                0x0801c232                UTIL_MEM_set_8
+                0x0801c222       0x36 ./Utilities/misc/stm32_mem.o
+                0x0801c222                UTIL_MEM_set_8
  .text.SysTimeAdd
-                0x0801c268       0x72 ./Utilities/misc/stm32_systime.o
-                0x0801c268                SysTimeAdd
+                0x0801c258       0x72 ./Utilities/misc/stm32_systime.o
+                0x0801c258                SysTimeAdd
  .text.SysTimeSub
-                0x0801c2da       0x70 ./Utilities/misc/stm32_systime.o
-                0x0801c2da                SysTimeSub
- *fill*         0x0801c34a        0x2 
+                0x0801c2ca       0x70 ./Utilities/misc/stm32_systime.o
+                0x0801c2ca                SysTimeSub
+ *fill*         0x0801c33a        0x2 
  .text.SysTimeSet
-                0x0801c34c       0x5c ./Utilities/misc/stm32_systime.o
-                0x0801c34c                SysTimeSet
+                0x0801c33c       0x5c ./Utilities/misc/stm32_systime.o
+                0x0801c33c                SysTimeSet
  .text.SysTimeGet
-                0x0801c3a8       0x70 ./Utilities/misc/stm32_systime.o
-                0x0801c3a8                SysTimeGet
+                0x0801c398       0x70 ./Utilities/misc/stm32_systime.o
+                0x0801c398                SysTimeGet
  .text.SysTimeGetMcuTime
-                0x0801c418       0x40 ./Utilities/misc/stm32_systime.o
-                0x0801c418                SysTimeGetMcuTime
+                0x0801c408       0x40 ./Utilities/misc/stm32_systime.o
+                0x0801c408                SysTimeGetMcuTime
  .text.ee_skip_atoi
-                0x0801c458       0x4c ./Utilities/misc/stm32_tiny_vsnprintf.o
+                0x0801c448       0x4c ./Utilities/misc/stm32_tiny_vsnprintf.o
  .text.ee_number
-                0x0801c4a4      0x1dc ./Utilities/misc/stm32_tiny_vsnprintf.o
+                0x0801c494      0x1dc ./Utilities/misc/stm32_tiny_vsnprintf.o
  .text.tiny_vsnprintf_like
-                0x0801c680      0x2a4 ./Utilities/misc/stm32_tiny_vsnprintf.o
-                0x0801c680                tiny_vsnprintf_like
+                0x0801c670      0x2a4 ./Utilities/misc/stm32_tiny_vsnprintf.o
+                0x0801c670                tiny_vsnprintf_like
  .text.UTIL_SEQ_Run
-                0x0801c924      0x1f8 ./Utilities/sequencer/stm32_seq.o
-                0x0801c924                UTIL_SEQ_Run
+                0x0801c914      0x1f8 ./Utilities/sequencer/stm32_seq.o
+                0x0801c914                UTIL_SEQ_Run
  .text.UTIL_SEQ_RegTask
-                0x0801cb1c       0x44 ./Utilities/sequencer/stm32_seq.o
-                0x0801cb1c                UTIL_SEQ_RegTask
+                0x0801cb0c       0x44 ./Utilities/sequencer/stm32_seq.o
+                0x0801cb0c                UTIL_SEQ_RegTask
  .text.UTIL_SEQ_SetTask
-                0x0801cb60       0x58 ./Utilities/sequencer/stm32_seq.o
-                0x0801cb60                UTIL_SEQ_SetTask
+                0x0801cb50       0x58 ./Utilities/sequencer/stm32_seq.o
+                0x0801cb50                UTIL_SEQ_SetTask
  .text.UTIL_SEQ_PreIdle
-                0x0801cbb8        0xc ./Utilities/sequencer/stm32_seq.o
-                0x0801cbb8                UTIL_SEQ_PreIdle
+                0x0801cba8        0xc ./Utilities/sequencer/stm32_seq.o
+                0x0801cba8                UTIL_SEQ_PreIdle
  .text.UTIL_SEQ_PostIdle
-                0x0801cbc4        0xc ./Utilities/sequencer/stm32_seq.o
-                0x0801cbc4                UTIL_SEQ_PostIdle
+                0x0801cbb4        0xc ./Utilities/sequencer/stm32_seq.o
+                0x0801cbb4                UTIL_SEQ_PostIdle
  .text.SEQ_BitPosition
-                0x0801cbd0       0x70 ./Utilities/sequencer/stm32_seq.o
-                0x0801cbd0                SEQ_BitPosition
+                0x0801cbc0       0x70 ./Utilities/sequencer/stm32_seq.o
+                0x0801cbc0                SEQ_BitPosition
  .text.UTIL_TIMER_Init
-                0x0801cc40       0x20 ./Utilities/timer/stm32_timer.o
-                0x0801cc40                UTIL_TIMER_Init
+                0x0801cc30       0x20 ./Utilities/timer/stm32_timer.o
+                0x0801cc30                UTIL_TIMER_Init
  .text.UTIL_TIMER_Create
-                0x0801cc60       0x6c ./Utilities/timer/stm32_timer.o
-                0x0801cc60                UTIL_TIMER_Create
+                0x0801cc50       0x6c ./Utilities/timer/stm32_timer.o
+                0x0801cc50                UTIL_TIMER_Create
  .text.UTIL_TIMER_Start
-                0x0801cccc       0xdc ./Utilities/timer/stm32_timer.o
-                0x0801cccc                UTIL_TIMER_Start
+                0x0801ccbc       0xdc ./Utilities/timer/stm32_timer.o
+                0x0801ccbc                UTIL_TIMER_Start
  .text.UTIL_TIMER_Stop
-                0x0801cda8       0xe0 ./Utilities/timer/stm32_timer.o
-                0x0801cda8                UTIL_TIMER_Stop
+                0x0801cd98       0xe0 ./Utilities/timer/stm32_timer.o
+                0x0801cd98                UTIL_TIMER_Stop
  .text.UTIL_TIMER_SetPeriod
-                0x0801ce88       0x54 ./Utilities/timer/stm32_timer.o
-                0x0801ce88                UTIL_TIMER_SetPeriod
+                0x0801ce78       0x54 ./Utilities/timer/stm32_timer.o
+                0x0801ce78                UTIL_TIMER_SetPeriod
  .text.UTIL_TIMER_IRQ_Handler
-                0x0801cedc      0x100 ./Utilities/timer/stm32_timer.o
-                0x0801cedc                UTIL_TIMER_IRQ_Handler
+                0x0801cecc      0x100 ./Utilities/timer/stm32_timer.o
+                0x0801cecc                UTIL_TIMER_IRQ_Handler
  .text.UTIL_TIMER_GetCurrentTime
-                0x0801cfdc       0x24 ./Utilities/timer/stm32_timer.o
-                0x0801cfdc                UTIL_TIMER_GetCurrentTime
+                0x0801cfcc       0x24 ./Utilities/timer/stm32_timer.o
+                0x0801cfcc                UTIL_TIMER_GetCurrentTime
  .text.UTIL_TIMER_GetElapsedTime
-                0x0801d000       0x38 ./Utilities/timer/stm32_timer.o
-                0x0801d000                UTIL_TIMER_GetElapsedTime
+                0x0801cff0       0x38 ./Utilities/timer/stm32_timer.o
+                0x0801cff0                UTIL_TIMER_GetElapsedTime
  .text.TimerExists
-                0x0801d038       0x38 ./Utilities/timer/stm32_timer.o
-                0x0801d038                TimerExists
+                0x0801d028       0x38 ./Utilities/timer/stm32_timer.o
+                0x0801d028                TimerExists
  .text.TimerSetTimeout
-                0x0801d070       0x54 ./Utilities/timer/stm32_timer.o
-                0x0801d070                TimerSetTimeout
+                0x0801d060       0x54 ./Utilities/timer/stm32_timer.o
+                0x0801d060                TimerSetTimeout
  .text.TimerInsertTimer
-                0x0801d0c4       0x60 ./Utilities/timer/stm32_timer.o
-                0x0801d0c4                TimerInsertTimer
+                0x0801d0b4       0x60 ./Utilities/timer/stm32_timer.o
+                0x0801d0b4                TimerInsertTimer
  .text.TimerInsertNewHeadTimer
-                0x0801d124       0x3c ./Utilities/timer/stm32_timer.o
-                0x0801d124                TimerInsertNewHeadTimer
+                0x0801d114       0x3c ./Utilities/timer/stm32_timer.o
+                0x0801d114                TimerInsertNewHeadTimer
  .text.UTIL_ADV_TRACE_Init
-                0x0801d160       0x38 ./Utilities/trace/adv_trace/stm32_adv_trace.o
-                0x0801d160                UTIL_ADV_TRACE_Init
+                0x0801d150       0x38 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d150                UTIL_ADV_TRACE_Init
  .text.UTIL_ADV_TRACE_IsBufferEmpty
-                0x0801d198       0x24 ./Utilities/trace/adv_trace/stm32_adv_trace.o
-                0x0801d198                UTIL_ADV_TRACE_IsBufferEmpty
+                0x0801d188       0x24 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d188                UTIL_ADV_TRACE_IsBufferEmpty
  .text.UTIL_ADV_TRACE_COND_FSend
-                0x0801d1bc      0x100 ./Utilities/trace/adv_trace/stm32_adv_trace.o
-                0x0801d1bc                UTIL_ADV_TRACE_COND_FSend
+                0x0801d1ac      0x100 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d1ac                UTIL_ADV_TRACE_COND_FSend
  .text.UTIL_ADV_TRACE_RegisterTimeStampFunction
-                0x0801d2bc       0x1c ./Utilities/trace/adv_trace/stm32_adv_trace.o
-                0x0801d2bc                UTIL_ADV_TRACE_RegisterTimeStampFunction
+                0x0801d2ac       0x1c ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d2ac                UTIL_ADV_TRACE_RegisterTimeStampFunction
  .text.UTIL_ADV_TRACE_SetVerboseLevel
-                0x0801d2d8       0x20 ./Utilities/trace/adv_trace/stm32_adv_trace.o
-                0x0801d2d8                UTIL_ADV_TRACE_SetVerboseLevel
+                0x0801d2c8       0x20 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d2c8                UTIL_ADV_TRACE_SetVerboseLevel
  .text.TRACE_Send
-                0x0801d2f8      0x108 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d2e8      0x108 ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .text.TRACE_TxCpltCallback
-                0x0801d400      0x118 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d3f0      0x118 ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .text.TRACE_AllocateBufer
-                0x0801d518       0xfc ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d508       0xfc ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .text.TRACE_Lock
-                0x0801d614       0x3c ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d604       0x3c ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .text.TRACE_UnLock
-                0x0801d650       0x3c ./Utilities/trace/adv_trace/stm32_adv_trace.o
+                0x0801d640       0x3c ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .text.TRACE_IsLocked
-                0x0801d68c       0x20 ./Utilities/trace/adv_trace/stm32_adv_trace.o
- .text.memset   0x0801d6ac       0x10 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-memset.o)
-                0x0801d6ac                memset
+                0x0801d67c       0x20 ./Utilities/trace/adv_trace/stm32_adv_trace.o
+ .text.memset   0x0801d69c       0x10 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x0801d69c                memset
  .text.__libc_init_array
-                0x0801d6bc       0x48 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-init.o)
-                0x0801d6bc                __libc_init_array
- *fill*         0x0801d704        0x4 
- .text.floor    0x0801d708      0x100 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(libm_a-s_floor.o)
-                0x0801d708                floor
+                0x0801d6ac       0x48 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-init.o)
+                0x0801d6ac                __libc_init_array
+ *fill*         0x0801d6f4        0x4 
+ .text.floor    0x0801d6f8      0x100 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a(libm_a-s_floor.o)
+                0x0801d6f8                floor
  *(.glue_7)
- .glue_7        0x0801d808        0x0 linker stubs
+ .glue_7        0x0801d7f8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0801d808        0x0 linker stubs
+ .glue_7t       0x0801d7f8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0801d808        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0801d7f8        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x0801d808        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crti.o
-                0x0801d808                _init
- .init          0x0801d80c        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0801d7f8        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crti.o
+                0x0801d7f8                _init
+ .init          0x0801d7fc        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0801d814        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crti.o
-                0x0801d814                _fini
- .fini          0x0801d818        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtn.o
-                0x0801d820                        . = ALIGN (0x4)
-                0x0801d820                        _etext = .
+ .fini          0x0801d804        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crti.o
+                0x0801d804                _fini
+ .fini          0x0801d808        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0801d810                        . = ALIGN (0x4)
+                0x0801d810                        _etext = .
 
-.vfp11_veneer   0x0801d820        0x0
- .vfp11_veneer  0x0801d820        0x0 linker stubs
+.vfp11_veneer   0x0801d810        0x0
+ .vfp11_veneer  0x0801d810        0x0 linker stubs
 
-.v4_bx          0x0801d820        0x0
- .v4_bx         0x0801d820        0x0 linker stubs
+.v4_bx          0x0801d810        0x0
+ .v4_bx         0x0801d810        0x0 linker stubs
 
-.iplt           0x0801d820        0x0
- .iplt          0x0801d820        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x0801d810        0x0
+ .iplt          0x0801d810        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x0801d820      0xf44
-                0x0801d820                        . = ALIGN (0x4)
+.rodata         0x0801d810      0xf44
+                0x0801d810                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0801d820       0x30 ./Core/Src/main.o
- .rodata        0x0801d850        0x9 ./Core/Src/sys_app.o
- *fill*         0x0801d859        0x3 
- .rodata        0x0801d85c       0x23 ./Core/Src/sys_sensors.o
- *fill*         0x0801d87f        0x1 
- .rodata        0x0801d880       0x1c ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.o
- .rodata        0x0801d89c      0x434 ./LoRaWAN/App/lora_app.o
- .rodata        0x0801dcd0       0x4f ./LoRaWAN/App/lora_info.o
- *fill*         0x0801dd1f        0x1 
- .rodata        0x0801dd20      0x19a ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
- *fill*         0x0801deba        0x2 
- .rodata        0x0801debc       0x49 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
- *fill*         0x0801df05        0x3 
- .rodata        0x0801df08       0x2c ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
- .rodata        0x0801df34       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- .rodata        0x0801df74       0x98 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
- .rodata        0x0801e00c       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
- .rodata        0x0801e030       0x7c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- .rodata        0x0801e0ac       0x11 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
- *fill*         0x0801e0bd        0x3 
- .rodata        0x0801e0c0       0x57 ./Utilities/misc/stm32_tiny_vsnprintf.o
+ .rodata        0x0801d810       0x30 ./Core/Src/main.o
+ .rodata        0x0801d840        0x9 ./Core/Src/sys_app.o
+ *fill*         0x0801d849        0x3 
+ .rodata        0x0801d84c       0x23 ./Core/Src/sys_sensors.o
+ *fill*         0x0801d86f        0x1 
+ .rodata        0x0801d870       0x1c ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.o
+ .rodata        0x0801d88c      0x434 ./LoRaWAN/App/lora_app.o
+ .rodata        0x0801dcc0       0x4f ./LoRaWAN/App/lora_info.o
+ *fill*         0x0801dd0f        0x1 
+ .rodata        0x0801dd10      0x19a ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+ *fill*         0x0801deaa        0x2 
+ .rodata        0x0801deac       0x49 ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+ *fill*         0x0801def5        0x3 
+ .rodata        0x0801def8       0x2c ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+ .rodata        0x0801df24       0x40 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ .rodata        0x0801df64       0x98 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+ .rodata        0x0801dffc       0x24 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+ .rodata        0x0801e020       0x7c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ .rodata        0x0801e09c       0x11 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+ *fill*         0x0801e0ad        0x3 
+ .rodata        0x0801e0b0       0x57 ./Utilities/misc/stm32_tiny_vsnprintf.o
  *(.rodata*)
- *fill*         0x0801e117        0x1 
+ *fill*         0x0801e107        0x1 
  .rodata.UTIL_PowerDriver
-                0x0801e118       0x18 ./Core/Src/stm32_lpm_if.o
-                0x0801e118                UTIL_PowerDriver
+                0x0801e108       0x18 ./Core/Src/stm32_lpm_if.o
+                0x0801e108                UTIL_PowerDriver
  .rodata.AHBPrescTable
-                0x0801e130       0x40 ./Core/Src/system_stm32wlxx.o
-                0x0801e130                AHBPrescTable
+                0x0801e120       0x40 ./Core/Src/system_stm32wlxx.o
+                0x0801e120                AHBPrescTable
  .rodata.APBPrescTable
-                0x0801e170       0x20 ./Core/Src/system_stm32wlxx.o
-                0x0801e170                APBPrescTable
+                0x0801e160       0x20 ./Core/Src/system_stm32wlxx.o
+                0x0801e160                APBPrescTable
  .rodata.MSIRangeTable
-                0x0801e190       0x40 ./Core/Src/system_stm32wlxx.o
-                0x0801e190                MSIRangeTable
+                0x0801e180       0x40 ./Core/Src/system_stm32wlxx.o
+                0x0801e180                MSIRangeTable
  .rodata.UTIL_TimerDriver
-                0x0801e1d0       0x2c ./Core/Src/timer_if.o
-                0x0801e1d0                UTIL_TimerDriver
+                0x0801e1c0       0x2c ./Core/Src/timer_if.o
+                0x0801e1c0                UTIL_TimerDriver
  .rodata.UTIL_SYSTIMDriver
-                0x0801e1fc       0x14 ./Core/Src/timer_if.o
-                0x0801e1fc                UTIL_SYSTIMDriver
+                0x0801e1ec       0x14 ./Core/Src/timer_if.o
+                0x0801e1ec                UTIL_SYSTIMDriver
  .rodata.UTIL_TraceDriver
-                0x0801e210       0x10 ./Core/Src/usart_if.o
-                0x0801e210                UTIL_TraceDriver
+                0x0801e200       0x10 ./Core/Src/usart_if.o
+                0x0801e200                UTIL_TraceDriver
  .rodata.UARTPrescTable
-                0x0801e220       0x18 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.o
-                0x0801e220                UARTPrescTable
+                0x0801e210       0x18 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.o
+                0x0801e210                UARTPrescTable
  .rodata.numerator.1
-                0x0801e238        0x8 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.o
+                0x0801e228        0x8 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.o
  .rodata.denominator.0
-                0x0801e240        0x8 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.o
- .rodata.sbox   0x0801e248      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0801e230        0x8 ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.o
+ .rodata.sbox   0x0801e238      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .rodata.gfm2_sbox
-                0x0801e348      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0801e338      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .rodata.gfm3_sbox
-                0x0801e448      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+                0x0801e438      0x100 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
  .rodata.KeyLabel
-                0x0801e548       0x84 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0801e538       0x84 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
  .rodata.LoRaMacMaxEirpTable
-                0x0801e5cc       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+                0x0801e5bc       0x10 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
  .rodata.DataratesEU868
-                0x0801e5dc        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x0801e5cc        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
  .rodata.BandwidthsEU868
-                0x0801e5e4       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x0801e5d4       0x20 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
  .rodata.MaxPayloadOfDatarateEU868
-                0x0801e604        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+                0x0801e5f4        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
  .rodata.MaxPayloadOfDatarateRepeaterEU868
-                0x0801e60c        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
- .rodata.Radio  0x0801e614       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
-                0x0801e614                Radio
+                0x0801e5fc        0x8 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+ .rodata.Radio  0x0801e604       0x8c ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801e604                Radio
  .rodata.Bandwidths
-                0x0801e6a0        0x3 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
-                0x0801e6a0                Bandwidths
- *fill*         0x0801e6a3        0x1 
+                0x0801e690        0x3 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+                0x0801e690                Bandwidths
+ *fill*         0x0801e693        0x1 
  .rodata.FskBandwidths
-                0x0801e6a4       0xb0 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+                0x0801e694       0xb0 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
  .rodata.SEQ_clz_table_4bit
-                0x0801e754       0x10 ./Utilities/sequencer/stm32_seq.o
-                0x0801e754                SEQ_clz_table_4bit
-                0x0801e764                        . = ALIGN (0x4)
+                0x0801e744       0x10 ./Utilities/sequencer/stm32_seq.o
+                0x0801e744                SEQ_clz_table_4bit
+                0x0801e754                        . = ALIGN (0x4)
 
 .USER_embedded_Keys
-                0x0801e764       0xd8
+                0x0801e754       0xd8
  .USER_embedded_Keys
-                0x0801e764       0xd8 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+                0x0801e754       0xd8 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
 
-.ARM.extab      0x0801e83c        0x0
-                0x0801e83c                        . = ALIGN (0x4)
+.ARM.extab      0x0801e82c        0x0
+                0x0801e82c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0801e83c                        . = ALIGN (0x4)
+                0x0801e82c                        . = ALIGN (0x4)
 
-.ARM            0x0801e83c        0x8
-                0x0801e83c                        . = ALIGN (0x4)
-                0x0801e83c                        __exidx_start = .
+.ARM            0x0801e82c        0x8
+                0x0801e82c                        . = ALIGN (0x4)
+                0x0801e82c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0801e83c        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-strlen.o)
- .ARM.exidx     0x0801e844        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0801e82c        0x8 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x0801e834        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x0801e844                        __exidx_end = .
-                0x0801e844                        . = ALIGN (0x4)
+                0x0801e834                        __exidx_end = .
+                0x0801e834                        . = ALIGN (0x4)
 
-.rel.dyn        0x0801e844        0x0
- .rel.iplt      0x0801e844        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0801e834        0x0
+ .rel.iplt      0x0801e834        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x0801e844        0x0
-                0x0801e844                        . = ALIGN (0x4)
-                0x0801e844                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0801e834        0x0
+                0x0801e834                        . = ALIGN (0x4)
+                0x0801e834                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0801e844                        PROVIDE (__preinit_array_end = .)
-                0x0801e844                        . = ALIGN (0x4)
+                0x0801e834                        PROVIDE (__preinit_array_end = .)
+                0x0801e834                        . = ALIGN (0x4)
 
-.init_array     0x0801e844        0x4
-                0x0801e844                        . = ALIGN (0x4)
-                0x0801e844                        PROVIDE (__init_array_start = .)
+.init_array     0x0801e834        0x4
+                0x0801e834                        . = ALIGN (0x4)
+                0x0801e834                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0801e844        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0801e848                        PROVIDE (__init_array_end = .)
-                0x0801e848                        . = ALIGN (0x4)
+ .init_array    0x0801e834        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0801e838                        PROVIDE (__init_array_end = .)
+                0x0801e838                        . = ALIGN (0x4)
 
-.fini_array     0x0801e848        0x4
-                0x0801e848                        . = ALIGN (0x4)
+.fini_array     0x0801e838        0x4
+                0x0801e838                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0801e848        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .fini_array    0x0801e838        0x4 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0801e84c                        . = ALIGN (0x4)
-                0x0801e84c                        _sidata = LOADADDR (.data)
+                0x0801e83c                        . = ALIGN (0x4)
+                0x0801e83c                        _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x14c load address 0x0801e84c
+.data           0x20000000      0x14c load address 0x0801e83c
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -16066,11 +16066,11 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x2000014c                        . = ALIGN (0x4)
                 0x2000014c                        _edata = .
 
-.igot.plt       0x2000014c        0x0 load address 0x0801e998
+.igot.plt       0x2000014c        0x0 load address 0x0801e988
  .igot.plt      0x2000014c        0x0 C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000014c                        . = ALIGN (0x4)
 
-.bss            0x2000014c     0x2114 load address 0x0801e998
+.bss            0x2000014c     0x2114 load address 0x0801e988
                 0x2000014c                        _sbss = .
                 0x2000014c                        __bss_start__ = _sbss
  *(.bss)
@@ -16239,7 +16239,7 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x20002260                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20002260      0x600 load address 0x0801e998
+                0x20002260      0x600 load address 0x0801e988
                 0x20002260                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20002260                        PROVIDE (_end = .)
@@ -17141,7 +17141,7 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x0002999a      0x1c1 ./Utilities/trace/adv_trace/stm32_adv_trace.o
  .debug_macro   0x00029b5b       0x1c ./Utilities/trace/adv_trace/stm32_adv_trace.o
 
-.debug_line     0x00000000    0x45019
+.debug_line     0x00000000    0x45016
  .debug_line    0x00000000      0xba5 ./Core/Src/Si7021_driver.o
  .debug_line    0x00000ba5      0x935 ./Core/Src/adc.o
  .debug_line    0x000014da      0xc77 ./Core/Src/adc_if.o
@@ -17184,38 +17184,38 @@ LOAD C:/ST/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x00021fb3     0x3d2a ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.o
  .debug_line    0x00025cdd      0xede ./Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.o
  .debug_line    0x00026bbb      0x6e2 ./LoRaWAN/App/app_lorawan.o
- .debug_line    0x0002729d     0x14ba ./LoRaWAN/App/lora_app.o
- .debug_line    0x00028757      0x949 ./LoRaWAN/App/lora_info.o
- .debug_line    0x000290a0      0xa21 ./LoRaWAN/Target/radio_board_if.o
- .debug_line    0x00029ac1      0x863 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
- .debug_line    0x0002a324      0xc23 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
- .debug_line    0x0002af47      0xee7 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
- .debug_line    0x0002be2e     0x1b1e ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
- .debug_line    0x0002d94c      0x913 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
- .debug_line    0x0002e25f     0x1323 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
- .debug_line    0x0002f582      0xe44 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
- .debug_line    0x000303c6     0x34c2 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
- .debug_line    0x00033888      0x96c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.o
- .debug_line    0x000341f4      0xca0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
- .debug_line    0x00034e94      0xcce ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
- .debug_line    0x00035b62      0xbb4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
- .debug_line    0x00036716     0x128c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
- .debug_line    0x000379a2      0x929 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
- .debug_line    0x000382cb      0xaa2 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
- .debug_line    0x00038d6d      0xb43 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
- .debug_line    0x000398b0     0x1103 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
- .debug_line    0x0003a9b3     0x12a2 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
- .debug_line    0x0003bc55      0x85c ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
- .debug_line    0x0003c4b1     0x1d67 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
- .debug_line    0x0003e218     0x1a70 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
- .debug_line    0x0003fc88      0xd98 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
- .debug_line    0x00040a20      0x7dd ./Utilities/lpm/tiny_lpm/stm32_lpm.o
- .debug_line    0x000411fd      0x692 ./Utilities/misc/stm32_mem.o
- .debug_line    0x0004188f      0x9b8 ./Utilities/misc/stm32_systime.o
- .debug_line    0x00042247      0x8d9 ./Utilities/misc/stm32_tiny_vsnprintf.o
- .debug_line    0x00042b20      0xbe9 ./Utilities/sequencer/stm32_seq.o
- .debug_line    0x00043709      0xb31 ./Utilities/timer/stm32_timer.o
- .debug_line    0x0004423a      0xddf ./Utilities/trace/adv_trace/stm32_adv_trace.o
+ .debug_line    0x0002729d     0x14b7 ./LoRaWAN/App/lora_app.o
+ .debug_line    0x00028754      0x949 ./LoRaWAN/App/lora_info.o
+ .debug_line    0x0002909d      0xa21 ./LoRaWAN/Target/radio_board_if.o
+ .debug_line    0x00029abe      0x863 ./Middlewares/Third_Party/LoRaWAN/Crypto/cmac.o
+ .debug_line    0x0002a321      0xc23 ./Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.o
+ .debug_line    0x0002af44      0xee7 ./Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.o
+ .debug_line    0x0002be2b     0x1b1e ./Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.o
+ .debug_line    0x0002d949      0x913 ./Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.o
+ .debug_line    0x0002e25c     0x1323 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.o
+ .debug_line    0x0002f57f      0xe44 ./Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.o
+ .debug_line    0x000303c3     0x34c2 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.o
+ .debug_line    0x00033885      0x96c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.o
+ .debug_line    0x000341f1      0xca0 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.o
+ .debug_line    0x00034e91      0xcce ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCommands.o
+ .debug_line    0x00035b5f      0xbb4 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.o
+ .debug_line    0x00036713     0x128c ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.o
+ .debug_line    0x0003799f      0x929 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.o
+ .debug_line    0x000382c8      0xaa2 ./Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.o
+ .debug_line    0x00038d6a      0xb43 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.o
+ .debug_line    0x000398ad     0x1103 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.o
+ .debug_line    0x0003a9b0     0x12a2 ./Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.o
+ .debug_line    0x0003bc52      0x85c ./Middlewares/Third_Party/LoRaWAN/Utilities/utilities.o
+ .debug_line    0x0003c4ae     0x1d67 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o
+ .debug_line    0x0003e215     0x1a70 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o
+ .debug_line    0x0003fc85      0xd98 ./Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o
+ .debug_line    0x00040a1d      0x7dd ./Utilities/lpm/tiny_lpm/stm32_lpm.o
+ .debug_line    0x000411fa      0x692 ./Utilities/misc/stm32_mem.o
+ .debug_line    0x0004188c      0x9b8 ./Utilities/misc/stm32_systime.o
+ .debug_line    0x00042244      0x8d9 ./Utilities/misc/stm32_tiny_vsnprintf.o
+ .debug_line    0x00042b1d      0xbe9 ./Utilities/sequencer/stm32_seq.o
+ .debug_line    0x00043706      0xb31 ./Utilities/timer/stm32_timer.o
+ .debug_line    0x00044237      0xddf ./Utilities/trace/adv_trace/stm32_adv_trace.o
 
 .debug_str      0x00000000    0xced75
  .debug_str     0x00000000    0xa8d20 ./Core/Src/Si7021_driver.o
