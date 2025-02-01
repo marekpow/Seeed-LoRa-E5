@@ -26,6 +26,7 @@
 /* USER CODE BEGIN Includes */
 #include "sys_sensors.h"
 #include "Si7021_driver.h"
+#include "BME280_STM32.h"
 #include "sys_app.h"
 /* USER CODE END Includes */
 
@@ -73,6 +74,29 @@ void SI7201_Init()
     }
 #endif
   }
+
+void BME280_Init()
+{
+#ifdef BME280_H_
+	//Init structure definition section
+	BME280_Init_t BME280_InitStruct = {0};
+
+	//Reset section
+	Reset_BME280();
+
+	/*============================ *BME280 Initialization* ============================*/
+
+	BME280_InitStruct.Filter = FILTER_8;     				//FILTER_X
+	BME280_InitStruct.Mode = BME280_NORMAL_MODE;		 	//SLEEP, NORMAL or FORCE can be written
+	BME280_InitStruct.OverSampling_H = OVERSAMPLING_16;		//OVERSAMPLING_X
+	BME280_InitStruct.OverSampling_P = OVERSAMPLING_16;		//OVERSAMPLING_X
+	BME280_InitStruct.OverSampling_T = OVERSAMPLING_16;		//OVERSAMPLING_X
+	BME280_InitStruct.SPI_EnOrDıs = SPI3_W_DISABLE;			//SPI3_W_DISABLE or SPI3_W_ENABLE can be written
+	BME280_InitStruct.T_StandBy = T_SB_250;					//T_SB_X
+
+	BME280Init(BME280_InitStruct);
+#endif
+}
 /* USER CODE END 0 */
 
 /**
@@ -108,6 +132,7 @@ int main(void)
   MX_I2C3_Init();
   /* USER CODE BEGIN 2 */
   SI7201_Init();
+  BME280_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */

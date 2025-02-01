@@ -24,6 +24,7 @@
 #include "sys_conf.h"
 #include "sys_sensors.h"
 #include "Si7021_driver.h"
+#include "BME280_STM32.h"
 #include "sys_app.h"
 #if defined (SENSOR_ENABLED) && (SENSOR_ENABLED == 0)
 #include "adc_if.h"
@@ -200,6 +201,17 @@ int32_t EnvSensors_Read(sensor_t *sensor_data)
   {
 	  APP_LOG(1, VLEVEL_M, "Read temperature & humidity error\n");
   }
+#endif
+
+#ifdef BME280_H_
+  BME280_Data_t BME280;
+
+  BME280Calculation(&BME280);
+
+  TEMPERATURE_Value = BME280.Temperature;
+  HUMIDITY_Value = BME280.Humidity;
+  PRESSURE_Value = BME280.Pressure;
+
 #endif
 
   sensor_data->humidity    = HUMIDITY_Value;

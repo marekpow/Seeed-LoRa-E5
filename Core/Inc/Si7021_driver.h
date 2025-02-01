@@ -1,6 +1,6 @@
 #include <machine/_default_types.h>
 #ifndef SI7021_H_
-#define SI7021_H_
+//#define SI7021_H_
 
 #define RES0 0
 #define RES1 7

@@ -48,7 +48,8 @@ Core/Src/sys_sensors.o: ../Core/Src/sys_sensors.c ../Core/Inc/platform.h \
  ../Core/Inc/stm32wlxx_nucleo_conf.h \
  C:/repositories/Seeed-LoRa-E5/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../Core/Inc/sys_conf.h ../Core/Inc/sys_sensors.h \
- ../Core/Inc/Si7021_driver.h ../Core/Inc/sys_app.h ../Core/Inc/sys_conf.h \
+ ../Core/Inc/Si7021_driver.h ../Core/Inc/BME280_STM32.h \
+ ../Core/Inc/sys_app.h ../Core/Inc/sys_conf.h \
  ../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../Core/Inc/utilities_conf.h ../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../Utilities/misc/stm32_mem.h ../Utilities/misc/stm32_tiny_vsnprintf.h \
@@ -106,6 +107,7 @@ C:/repositories/Seeed-LoRa-E5/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../Core/Inc/sys_conf.h:
 ../Core/Inc/sys_sensors.h:
 ../Core/Inc/Si7021_driver.h:
+../Core/Inc/BME280_STM32.h:
 ../Core/Inc/sys_app.h:
 ../Core/Inc/sys_conf.h:
 ../Utilities/trace/adv_trace/stm32_adv_trace.h:
